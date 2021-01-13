@@ -1,0 +1,73 @@
+{
+  "global": {
+    "error": "Error 403 <:flushed_think:735637678137016381>"
+  },
+  "buyitem": {
+    "title": "You bought {ITEM}",
+    "description": [
+      "A {ITEM} was bought via the [CountBot Shop](https://bremea.com/countbot/shop)",
+      "",
+      "**Your Coins:** {COINSEMOJI}{COINS}",
+      "**Remaining Coins:** {COINSEMOJI}{COINS}",
+      "Didn't get that item? [Let us know.](https://discord.gg/meWdwaJ)"
+    ]
+  },
+  "coinadd": {
+    "nopermission": {
+      "description": [
+        "Yikes! It looks like you don't have proper permissions to run this command. **Only bremea development staff can use this command.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/meWdwaJ)**"
+      ]
+    }
+  },
+  "curses": {
+    "nopermission": {
+      "description": [
+        "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Channel\" perms.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "notcountingchannel": {
+      "description": [
+        "Yikes! It doesn't look like this is a counting channel. **Make sure you are running this command in a counting channel run by CountBot.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    }
+  },
+  "help": {
+    "helptitle": "CountBot Help",
+    "notacommand": {
+      "description": "Hmm... it seems that command doesn't exist. Check the spelling and try again."
+    },
+    "aliases": "Aliases:",
+    "description": "Description:",
+    "usage": "Usage",
+    "cooldown": "Cooldown: {COOLDOWN} seconds",
+    "countonly": "\n:warning: **This command can only be used in counting channels.**",
+    "admin": ":warning: **This command can only be members who have `Manage Channel` permissions.**",
+    "command": {
+      "title": "{COMMAND} | {HELPTITLE}"
+    },
+    "mainmenu": {
+      "setup": {
+        "name": "Setup Commands",
+        "value": "`c;new <number>` Creates a new channel where the goal is to count to a number.\n`c;merge` Sets up the bot in an extisting counting channel."
+      },
+      "settigns": {
+        "name": "Settings Command",
+        "value": "`c;milestones`, `c;powerups`, `c;curses`, `c;userlimit`, `c;setgoal`"
+      },
+      "misc ": {
+        "name": "Misc Commands",
+        "value": "`c;vote`, `c;stats`, `c;leaderboard`, `c;info`, `c;invite`, `c;ping`"
+      },
+      "item": {
+        "name": "Item Commands",
+        "value": "`c;shop`, `c;inventory`, `c;use`"
+      }
+    }
+  }
+}
