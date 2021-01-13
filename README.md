@@ -22,7 +22,8 @@ The developers of CountBot have spent the past few weeks moving all messages int
 - If a user reports a translation and we discover that it is in fact a misleading/irrelevant translation, you will be held responsible and punished 
 
 ## Possible Rewards
-- 
+- A generous amount of coins and/or creates
+
 Please only translate files to your known language if you are already **somewhat fluent** in English. This way, you can understand the grammar and make proper changes. If you ever have a question about a word or phrase, do not hesitate to contact support.
 
 There are still quite a few commands that do not support translations. It is tedious work that will be done when the developers have the time to do so.
@@ -33,7 +34,13 @@ To get data that can't be translated, placeholders are used in the form of {PLAC
 
 Here is a list of the global placeholders (placeholders that are always the same everywhere). Be sure to check for updates here!
 
-| Placeholder | Value                 |
-|-------------|-----------------------|
+| Placeholder | Value                          |
+|-------------|---------------------------------|
+| {COINS}     | Coins of whoever                |
+| {COUNTED}   | Number of counts                |
+| {POWERUPS}  | Powerups of whoever             |
+| {USER}      | @Message Author                 |
+| {VOTES}     | Number of votes (user or total) |
+| {XP}        | XP of whoever                   |
 
 If you do not understand a placeholder, please contact support.
