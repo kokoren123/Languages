@@ -81,5 +81,44 @@
         }
       ]
     }
+  },
+  "info": {
+    "color": "0xfe7e03",
+    "title": "CountBot Information",
+    "thumbnail": {
+      "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+    },
+    "description": "CountBot is an easy to-use, highly configurable, and super fun minigame bot that manages a counting channel.",
+    "fields": [
+      {
+        "name": "General",
+        "value": "Prefix: `c;`\nHelp Command: `c;help`\nLibrary: `discord.js@12.4.1`\nNode Version: `v14.15.2`\nBot Version: `v2.3.3`",
+        "inline": true
+      },
+      {
+        "name": "Statistics",
+        "value": "Servers: `{GUILDS}`\nUsers: `{USERS}`\nChannels: `{USERS}`",
+        "inline": true
+      },
+      {
+        "name": "Links",
+        "value": "Changelog: [http://bit.ly/countbot-update](http://bit.ly/countbot-update)\nSupport: [https://discord.gg/nACB8FD](https://discord.gg/nACB8FD)\nStatcord: [https://beta.statcord.com/bot/countbot](https://beta.statcord.com/bot/countbot)\ntop.gg: [https://top.gg/bot/727569067895947383](https://top.gg/bot/727569067895947383)\nDiscord Labs: [https://dbots.cc/countbot](https://dbots.cc/countbot)",
+        "inline": false
+      }
+    ]
+  },
+  "inventory": {
+    "noitems": {
+      "color": "0xfe7e03",
+      "title": "Error 404 <:flushed_think:735637678137016381>",
+      "description": "Yikes! It doesn't look like you have any items in your inventory. **You can buy items at the [CountBot Shop](https://bremea.com/countbot/shop).**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+    },
+    "hasitems": {
+      "color": "0xfe7e03",
+      "title": "Your Inventory",
+      "url": "https://bremea.com/countbot/inventory",
+      "description": "You can buy more items with `c;shop`",
+      "fields": []
+    }
   }
 }
