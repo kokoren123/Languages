@@ -1,7 +1,5 @@
 {
-  "global": {
-    "error": "Error 403 <:flushed_think:735637678137016381>"
-  },
+  "error": "Error {NUMBER} <:flushed_think:735637678137016381>",
   "buyitem": {
     "title": "You bought {ITEM}",
     "description": [
@@ -40,6 +38,8 @@
   "help": {
     "helptitle": "CountBot Help",
     "notacommand": {
+      "color": "0xfe7e03",
+      "title": "CountBot Help",
       "description": "Hmm... it seems that command doesn't exist. Check the spelling and try again."
     },
     "aliases": "Aliases:",
@@ -49,25 +49,37 @@
     "countonly": "\n:warning: **This command can only be used in counting channels.**",
     "admin": ":warning: **This command can only be members who have `Manage Channel` permissions.**",
     "command": {
-      "title": "{COMMAND} | {HELPTITLE}"
+      "color": "0xfe7e03",
+      "title": "{COMMAND} | {HELPTITLE}",
+      "description": "{DATA}"
     },
+    "title": "CountBot Help",
     "mainmenu": {
-      "setup": {
-        "name": "Setup Commands",
-        "value": "`c;new <number>` Creates a new channel where the goal is to count to a number.\n`c;merge` Sets up the bot in an extisting counting channel."
-      },
-      "settigns": {
-        "name": "Settings Command",
-        "value": "`c;milestones`, `c;powerups`, `c;curses`, `c;userlimit`, `c;setgoal`"
-      },
-      "misc ": {
-        "name": "Misc Commands",
-        "value": "`c;vote`, `c;stats`, `c;leaderboard`, `c;info`, `c;invite`, `c;ping`"
-      },
-      "item": {
-        "name": "Item Commands",
-        "value": "`c;shop`, `c;inventory`, `c;use`"
-      }
+      "color": "0xfe7e03",
+      "title": "CountBot Help",
+      "description": "Use `c;h <command>` to learn more about a command | **[Need help? Click here.](https://discord.gg/meWdwaJ)**",
+      "fields": [
+        {
+          "name": "Setup Commands",
+          "value": "`c;new <number>` Creates a new channel where the goal is to count to a number.\n`c;merge` Sets up the bot in an extisting counting channel.",
+          "inline": false
+        },
+        {
+          "name": "Settings Commands",
+          "value": "`c;milestones`, `c;powerups`, `c;curses`, `c;userlimit`, `c;setgoal`",
+          "inline": true
+        },
+        {
+          "name": "Misc Commands",
+          "value": "`c;vote`, `c;stats`, `c;leaderboard`, `c;info`, `c;invite`, `c;ping`",
+          "inline": true
+        },
+        {
+          "name": "Item Commands",
+          "value": "`c;shop`, `c;inventory`, `c;use`",
+          "inline": true
+        }
+      ]
     }
   }
 }
