@@ -97,7 +97,7 @@
       },
       {
         "name": "Statistics",
-        "value": "Servers: `{GUILDS}`\nUsers: `{USERS}`\nChannels: `{USERS}`",
+        "value": "Servers: `{GUILDS}`\nUsers: `{USERS}`\nChannels: `{CHANNELS}`",
         "inline": true
       },
       {
