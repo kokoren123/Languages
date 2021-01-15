@@ -9,7 +9,7 @@
   "global": {
     "disabled": "disabled",
     "enabled": "enabled",
-    "channeltopic": "**Count to {GOAL}!** Powered by {BOT}",
+    "channeltopic": "**Count to {GOAL}!** Powered by <@727569067895947383>",
     "channelname": "count-to-{GOAL}",
     "noserverpermission": {
       "color": "0xfe7e03",
@@ -156,90 +156,7 @@
     },
     "description": "**Thanks for inviting CountBot!**\n\n**Confused?** Join our [support server.](https://discord.gg/w9BqPr8)\n**Wondering how to set things up?** [Click here.](https://bots.discordlabs.org/bot/countbot)\n**Want another way to support CountBot?** [Consider voting.](https://top.gg/bot/727569067895947383/vote)"
   },
-  "magic8language": {
-    "invalid": [
-      "{CROSS} **Invalid Language Provided:** `{INPUT}`",
-      "",
-      "**Current:** `{CURRENT}`",
-      "",
-      "**Available Languages:**",
-      "{AVAILABLE}",
-      "",
-      "{WARNING} English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
-    ],
-    "alreadyselected": [
-      "{CROSS} **Language Already Selected**",
-      "",
-      "**Language:** `{CURRENT}`",
-      "",
-      "Please select a new language for your server."
-    ],
-    "updated": [
-      "{CHECK} **Language Updated:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%",
-      "",
-      "{INFO} If you want to contribute with translations in your native language, join our [Support Server]({INVITE}).",
-      "",
-      "{WARNING} English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
-    ],
-    "uptodate": "Up To Date",
-    "outdated": "Not Up To Date",
-    "listtitle": "{BOTNAME} - Languages List ({PAGE}/{TOTALPAGES})",
-    "invalidpage": [
-      "{CROSS} **Invalid Page Provided:** `{INPUT}`",
-      "",
-      "{INFO} Please provide a page number between **1** and **{TOTALPAGES}**."
-    ],
-    "statements": {
-      "togithub": "{INFO} Click on a language to be taken to the GitHub Repository.",
-      "set": "{INFO} To set this server's language, type the abbreviation.",
-      "info": "{INFO} Type the language abbreviation for more information."
-    },
-    "languages": [
-      "{UPTODATE}",
-      "",
-      "{STATEMENT}",
-      "",
-      "{LANGUAGES}"
-    ],
-    "help": [
-      "{CHECK} **Hey! Thanks for opening this page!**",
-      "",
-      "The Magic8 developers have devoted  many hours to being able to support other languages. Please consider taking the opportunity to help out!",
-      "",
-      "[**Github Repository**]({GITHUB})",
-      "",
-      "**What do you get in return?**",
-      "- Language Contributor Role in our [Support Server]({INVITE})",
-      "- Free [Triple Package]({TRIPLEPACKAGE})",
-      "- Advertisement on the Magic8 bot or in the #sponsors channel",
-      "- Complete credit for the language",
-      "- Utmost respect from the developers",
-      "- Possibly more",
-      "",
-      "{INFO} **Please contact us if you'd like to help!**"
-    ],
-    "info": [
-      "{FLAG} **{LANGUAGENAME}** (`{LANGUAGESHORT}`)",
-      "",
-      "**Progress:** {PROGRESS}%",
-      "**Authors:**",
-      "{AUTHORS}"
-    ],
-    "lastupdated": "⏲️ Last Updated: {TIME}",
-    "menutitle": "{BOTNAME} - Languages Menu",
-    "menu": [
-      "Here you can manage the language of {BOT}!",
-      "",
-      "**Available Commands:**",
-      "`{PREFIX}language set` - Set the language (`{LANGUAGE}`)",
-      "`{PREFIX}language help` - Magic8 Languages Information",
-      "`{PREFIX}language info` - Specific Language Details",
-      "`{PREFIX}language list` - View Available Languages",
-      "",
-      "{INFO} **Please contact us if you'd like to help!**"
-    ]
-  },
-  "NEWlanguage": {
+  "language": {
     "outdated": "Not Up To Date",
     "uptodate": "Up To Date",
     "statements": {
@@ -247,11 +164,59 @@
       "set": "{INFO} To set this server's language, type the abbreviation.",
       "info": "{INFO} Type the language abbreviation for more information."
     },
-    "invalidlanguage": {},
-    "alreadyselected": {},
-    "updatedlanguage": {},
-    "invalidpage": {},
-    "languageslist": {}
+    "invalidlanguage": {
+      "description": "**Invalid Language Provided:** `{INPUT}`\n\n**Current:** `{CURRENTLANGUAGE}`\n\n**Available Languages:**\n`{AVAILABLELANGUAGES}`\n\nEnglish is the primary language and fully supported. Some commands may appear in English even though your language is set to another.",
+      "color": "0xfe7e03"
+    },
+    "alreadyselected": {
+      "description": "**Language Already Selected**\n\n**Language:** `{CURRENTLANGUAGE}`\n\nPlease select a new language for your server.",
+      "color": "0xfe7e03"
+    },
+    "updatedlanguage": {
+      "description": "**Language Updated:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%\n\nIf you want to contribute with translations in your native language, join our [Support Server]({INVITE})\n\nEnglish is the primary language and fully supported. Some commands may appear in English even though your language is set to another.",
+      "color": "0xfe7e03"
+    },
+    "invalidpage": {
+      "description": "**Invalid Page Provided:** `{INPUT}`\n\n Please provide a page number between **1** and **{TOTALPAGES}**.",
+      "color": "0xfe7e03"
+    },
+    "languageslist": {
+      "description": "**{UPTODATE}**\n\n{STATEMENT}\n\n{LANGUAGES}",
+      "color": "0xfe7e03",
+      "thumbnail": {
+        "url": "https://cdn.discordapp.com/avatars/709874163988299848/5cc73007fd0e6788a3b98628bf077eb5.png"
+      },
+      "author": {
+        "name": "CountBot - Languages List ({PAGE}/{MAXPAGES})"
+      },
+      "footer": {
+        "text": "⏲️ Last Updated: {TIME}"
+      }
+    },
+    "menu": {
+      "description": "Here you can manage the language of <@727569067895947383>!\n\n**Available Commands:**\n`c;language set` - Set the language (`en`)\n`c;language help` - CountBot Languages Information\n`c;language info` - Specific Language Details\n`c;language list` - View Available Languages\n\n **Please contact us if you'd like to help!**",
+      "color": "0xfe7e03",
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      },
+      "author": {
+        "name": "CountBot - Languages Menu"
+      },
+      "footer": {
+        "text": "⏲️ Last Updated: {TIME}"
+      }
+    },
+    "help": {
+      "description": " **Hey! Thanks for opening this page!**\n\nThe Magic8 developers have devoted many hours to being able to support other languages. Please consider taking the opportunity to help out!\n\n[**Github Repository**](https://github.com/bremeadev/languages)\n\n**What do you get in return?**\n- Language Contributor Role in our [Support Server](https://discord.gg/w9BqPr8)\n- Free [Triple Package]({TRIPLEPACKAGE})\n- Advertisement on the Magic8 bot or in the #sponsors channel\n- Complete credit for the language\n- Utmost respect from the developers\n- Possibly more\n\n **Please contact us if you'd like to help!**",
+      "color": "0xfe7e03",
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      }
+    },
+    "info": {
+      "description": "{FLAG} **{LANGUAGENAME}** (`{LANGUAGESHORT}`)\n\n**Progress:** {PROGRESS}%\n**Authors:**\n{AUTHORS}",
+      "color": "0xfe7e03"
+    }
   },
   "merge": {
     "notagoal": {
