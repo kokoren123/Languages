@@ -57,13 +57,9 @@
     }
   },
   "curses": {
-    "nopermission": {
-      "description": [
-        "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Channel\" perms.**",
-        "",
-        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
-      ]
-    }
+    "color": "0xfe7e03",
+    "title": "Curses {ACTION}",
+    "description": "**Curses have been {ACTION} for this counting channel.** You can change this at any time by running `c;curses` again.\nAction preformed by {USER}."
   },
   "help": {
     "helptitle": "CountBot Help",
@@ -160,7 +156,103 @@
     },
     "description": "**Thanks for inviting CountBot!**\n\n**Confused?** Join our [support server.](https://discord.gg/w9BqPr8)\n**Wondering how to set things up?** [Click here.](https://bots.discordlabs.org/bot/countbot)\n**Want another way to support CountBot?** [Consider voting.](https://top.gg/bot/727569067895947383/vote)"
   },
-  "language": {},
+  "magic8language": {
+    "invalid": [
+      "{CROSS} **Invalid Language Provided:** `{INPUT}`",
+      "",
+      "**Current:** `{CURRENT}`",
+      "",
+      "**Available Languages:**",
+      "{AVAILABLE}",
+      "",
+      "{WARNING} English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
+    ],
+    "alreadyselected": [
+      "{CROSS} **Language Already Selected**",
+      "",
+      "**Language:** `{CURRENT}`",
+      "",
+      "Please select a new language for your server."
+    ],
+    "updated": [
+      "{CHECK} **Language Updated:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%",
+      "",
+      "{INFO} If you want to contribute with translations in your native language, join our [Support Server]({INVITE}).",
+      "",
+      "{WARNING} English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
+    ],
+    "uptodate": "Up To Date",
+    "outdated": "Not Up To Date",
+    "listtitle": "{BOTNAME} - Languages List ({PAGE}/{TOTALPAGES})",
+    "invalidpage": [
+      "{CROSS} **Invalid Page Provided:** `{INPUT}`",
+      "",
+      "{INFO} Please provide a page number between **1** and **{TOTALPAGES}**."
+    ],
+    "statements": {
+      "togithub": "{INFO} Click on a language to be taken to the GitHub Repository.",
+      "set": "{INFO} To set this server's language, type the abbreviation.",
+      "info": "{INFO} Type the language abbreviation for more information."
+    },
+    "languages": [
+      "{UPTODATE}",
+      "",
+      "{STATEMENT}",
+      "",
+      "{LANGUAGES}"
+    ],
+    "help": [
+      "{CHECK} **Hey! Thanks for opening this page!**",
+      "",
+      "The Magic8 developers have devoted  many hours to being able to support other languages. Please consider taking the opportunity to help out!",
+      "",
+      "[**Github Repository**]({GITHUB})",
+      "",
+      "**What do you get in return?**",
+      "- Language Contributor Role in our [Support Server]({INVITE})",
+      "- Free [Triple Package]({TRIPLEPACKAGE})",
+      "- Advertisement on the Magic8 bot or in the #sponsors channel",
+      "- Complete credit for the language",
+      "- Utmost respect from the developers",
+      "- Possibly more",
+      "",
+      "{INFO} **Please contact us if you'd like to help!**"
+    ],
+    "info": [
+      "{FLAG} **{LANGUAGENAME}** (`{LANGUAGESHORT}`)",
+      "",
+      "**Progress:** {PROGRESS}%",
+      "**Authors:**",
+      "{AUTHORS}"
+    ],
+    "lastupdated": "⏲️ Last Updated: {TIME}",
+    "menutitle": "{BOTNAME} - Languages Menu",
+    "menu": [
+      "Here you can manage the language of {BOT}!",
+      "",
+      "**Available Commands:**",
+      "`{PREFIX}language set` - Set the language (`{LANGUAGE}`)",
+      "`{PREFIX}language help` - Magic8 Languages Information",
+      "`{PREFIX}language info` - Specific Language Details",
+      "`{PREFIX}language list` - View Available Languages",
+      "",
+      "{INFO} **Please contact us if you'd like to help!**"
+    ]
+  },
+  "NEWlanguage": {
+    "outdated": "Not Up To Date",
+    "uptodate": "Up To Date",
+    "statements": {
+      "togithub": "{INFO} Click on a language to be taken to the GitHub Repository.",
+      "set": "{INFO} To set this server's language, type the abbreviation.",
+      "info": "{INFO} Type the language abbreviation for more information."
+    },
+    "invalidlanguage": {},
+    "alreadyselected": {},
+    "updatedlanguage": {},
+    "invalidpage": {},
+    "languageslist": {}
+  },
   "merge": {
     "notagoal": {
       "color": "0xfe7e03",
