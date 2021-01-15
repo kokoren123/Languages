@@ -1,4 +1,10 @@
 {
+  "languagenamelong": "English",
+  "languagenameshort": "en",
+  "flag": "🇺🇸",
+  "authors": [
+    "Fyrlex#2740"
+  ],
   "error": "Error {NUMBER} <:flushed_think:735637678137016381>",
   "buyitem": {
     "title": "You bought {ITEM}",
