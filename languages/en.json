@@ -14,39 +14,69 @@
     "noserverpermission": {
       "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
-      "description": "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Server\" permission.**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Server\" permission.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     },
     "nochannelpermission": {
       "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
-      "description": "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Channel\" permission.**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Channel\" permission.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     },
     "nodevpermission": {
       "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
-      "description": "Yikes! It looks like you don't have proper permissions to run this command. **Only bremea development staff can use this command.**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! It looks like you don't have proper permissions to run this command. **Only bremea development staff can use this command.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     },
     "nobotpermission": {
       "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
-      "description": "Yikes! It looks like I don't have proper permissions to run this command. **Make sure I have \"Manage Channel\" permission and my role is higher than your server's bot role.**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! It looks like I don't have proper permissions to run this command. **Make sure I have \"Manage Channel\" permission and my role is higher than your server's bot role.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     },
     "alreadyhaschannel": {
       "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
-      "description": "Yikes! It looks like you already have a counting channel running in this server - <#' + cg.channelid + '>. Currently, we limit servers to one couting channel at a time.\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! It looks like you already have a counting channel running in this server - <#' + cg.channelid + '>. Currently, we limit servers to one couting channel at a time.",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     },
     "notacountingchannel": {
       "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
-      "description": "Yikes! It doesn't look like this is a counting channel. **Make sure the last message sent is a valid, positive integer.**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! It doesn't look like this is a counting channel. **Make sure the last message sent is a valid, positive integer.**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     }
   },
   "buyitem": {
     "embed": {
       "color": "0xfe7e03",
       "title": "You bought: {ITEM}",
-      "description": "A {ITEM} was bought via the [CountBot Shop](https://bremea.com/countbot/shop)\n\n**Your Coins:** <:countbot_coin2:771441683535495179>{COINS}\n**Remaining Coins: <:countbot_coin2:771441683535495179>{REMAINING}**\n**Didn't get the item? [Let us know.](https://discord.gg/meWdwaJ)**",
+      "description": [
+        "A {ITEM} was bought via the [CountBot Shop](https://bremea.com/countbot/shop)",
+        "",
+        "**Your Coins:** <:countbot_coin2:771441683535495179>{COINS}",
+        "**Remaining Coins: <:countbot_coin2:771441683535495179>{REMAINING}**",
+        "**Didn't get the item? [Let us know.](https://discord.gg/meWdwaJ)**"
+      ],
       "timestamp": "{TIMESTAMP}",
       "thumbnail": {
         "url": "https: //u.cubeupload.com/BGMead/cbtdarkcircle.png"
@@ -57,7 +87,10 @@
   "curses": {
     "color": "0xfe7e03",
     "title": "Curses {ACTION}",
-    "description": "**Curses have been {ACTION} for this counting channel.** You can change this at any time by running `c;curses` again.\nAction preformed by {USER}."
+    "description": [
+      "**Curses have been {ACTION} for this counting channel.** You can change this at any time by running `c;curses` again.",
+      "Action preformed by {USER}."
+    ]
   },
   "help": {
     "helptitle": "CountBot Help",
@@ -85,7 +118,10 @@
       "fields": [
         {
           "name": "Setup Commands",
-          "value": "`c;new <number>` Creates a new channel where the goal is to count to a number.\n`c;merge` Sets up the bot in an extisting counting channel.",
+          "value": [
+            "`c;new <number>` Creates a new channel where the goal is to count to a number.",
+            "`c;merge` Sets up the bot in an extisting counting channel."
+          ],
           "inline": false
         },
         {
@@ -116,17 +152,33 @@
     "fields": [
       {
         "name": "General",
-        "value": "Prefix: `c;`\nHelp Command: `c;help`\nLibrary: `discord.js@12.4.1`\nNode Version: `v14.15.2`\nBot Version: `v2.3.3`",
+        "value": [
+          "Prefix: `c;`",
+          "Help Command: `c;help`",
+          "Library: `discord.js@12.4.1`",
+          "Node Version: `v14.15.2`",
+          "Bot Version: `v2.3.3`"
+        ],
         "inline": true
       },
       {
         "name": "Statistics",
-        "value": "Servers: `{GUILDS}`\nUsers: `{USERS}`\nChannels: `{CHANNELS}`",
+        "value": [
+          "Servers: `{GUILDS}`",
+          "Users: `{USERS}`",
+          "Channels: `{CHANNELS}`"
+        ],
         "inline": true
       },
       {
         "name": "Links",
-        "value": "Changelog: [http://bit.ly/countbot-update](http://bit.ly/countbot-update)\nSupport: [https://discord.gg/nACB8FD](https://discord.gg/nACB8FD)\nStatcord: [https://beta.statcord.com/bot/countbot](https://beta.statcord.com/bot/countbot)\ntop.gg: [https://top.gg/bot/727569067895947383](https://top.gg/bot/727569067895947383)\nDiscord Labs: [https://dbots.cc/countbot](https://dbots.cc/countbot)",
+        "value": [
+          "Changelog: [http://bit.ly/countbot-update](http://bit.ly/countbot-update)",
+          "Support: [https://discord.gg/nACB8FD](https://discord.gg/nACB8FD)",
+          "Statcord: [https://beta.statcord.com/bot/countbot](https://beta.statcord.com/bot/countbot)",
+          "top.gg: [https://top.gg/bot/727569067895947383](https://top.gg/bot/727569067895947383)",
+          "Discord Labs: [https://dbots.cc/countbot](https://dbots.cc/countbot)"
+        ],
         "inline": false
       }
     ]
@@ -135,7 +187,11 @@
     "noitems": {
       "color": "0xfe7e03",
       "title": "Error 404 <:flushed_think:735637678137016381>",
-      "description": "Yikes! It doesn't look like you have any items in your inventory. **You can buy items at the [CountBot Shop](https://bremea.com/countbot/shop).**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! It doesn't look like you have any items in your inventory. **You can buy items at the [CountBot Shop](https://bremea.com/countbot/shop).**",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     },
     "hasitems": {
       "color": "0xfe7e03",
@@ -152,7 +208,13 @@
     "thumbnail": {
       "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
     },
-    "description": "**Thanks for inviting CountBot!**\n\n**Confused?** Join our [support server.](https://discord.gg/w9BqPr8)\n**Wondering how to set things up?** [Click here.](https://bots.discordlabs.org/bot/countbot)\n**Want another way to support CountBot?** [Consider voting.](https://top.gg/bot/727569067895947383/vote)"
+    "description": [
+      "**Thanks for inviting CountBot!**",
+      "",
+      "**Confused?** Join our [support server.](https://discord.gg/w9BqPr8)",
+      "**Wondering how to set things up?** [Click here.](https://bots.discordlabs.org/bot/countbot)",
+      "**Want another way to support CountBot?** [Consider voting.](https://top.gg/bot/727569067895947383/vote)"
+    ]
   },
   "language": {
     "outdated": "Not Up To Date",
@@ -163,23 +225,54 @@
       "info": "Type the language abbreviation for more information."
     },
     "invalidlanguage": {
-      "description": "**Invalid Language Provided:** `{INPUT}`\n\n**Current:** `{CURRENTLANGUAGE}`\n\n**Available Languages:**\n`{AVAILABLELANGUAGES}`\n\nEnglish is the primary language and fully supported. Some commands may appear in English even though your language is set to another.",
+      "description": [
+        "**Invalid Language Provided:** `{INPUT}`",
+        "",
+        "**Current:** `{CURRENTLANGUAGE}`",
+        "",
+        "**Available Languages:**",
+        "`{AVAILABLELANGUAGES}`",
+        "",
+        "English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
+      ],
       "color": "0xfe7e03"
     },
     "alreadyselected": {
-      "description": "**Language Already Selected**\n\n**Language:** `{CURRENTLANGUAGE}`\n\nPlease select a new language for your server.",
+      "description": [
+        "**Language Already Selected**",
+        "",
+        "**Language:** `{CURRENTLANGUAGE}`",
+        "",
+        "Please select a new language for your server."
+      ],
       "color": "0xfe7e03"
     },
     "updatedlanguage": {
-      "description": "**Language Updated:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%\n\nIf you want to contribute with translations in your native language, join our [Support Server]({INVITE})\n\nEnglish is the primary language and fully supported. Some commands may appear in English even though your language is set to another.",
+      "description": [
+        "**Language Updated:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%",
+        "",
+        "If you want to contribute with translations in your native language, join our [Support Server]({INVITE})",
+        "",
+        "English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
+      ],
       "color": "0xfe7e03"
     },
     "invalidpage": {
-      "description": "**Invalid Page Provided:** `{INPUT}`\n\n Please provide a page number between **1** and **{TOTALPAGES}**.",
+      "description": [
+        "**Invalid Page Provided:** `{INPUT}`",
+        "",
+        "Please provide a page number between **1** and **{TOTALPAGES}**."
+      ],
       "color": "0xfe7e03"
     },
     "languageslist": {
-      "description": "**{UPTODATE}**\n\n{STATEMENT}\n\n{LANGUAGES}",
+      "description": [
+        "**{UPTODATE}**",
+        "",
+        "{STATEMENT}",
+        "",
+        "{LANGUAGES}"
+      ],
       "color": "0xfe7e03",
       "thumbnail": {
         "url": "https://cdn.discordapp.com/avatars/709874163988299848/5cc73007fd0e6788a3b98628bf077eb5.png"
@@ -192,7 +285,17 @@
       }
     },
     "menu": {
-      "description": "Here you can manage the language of <@727569067895947383>!\n\n**Available Commands:**\n`c;language set` - Set the language ({CURRENTLANGUAGE})\n`c;language help` - CountBot Languages Information\n`c;language info` - Specific Language Details\n`c;language list` - View Available Languages\n\n **Please contact us if you'd like to help!**",
+      "description": [
+        "Here you can manage the language of <@727569067895947383>!",
+        "",
+        "**Available Commands:**",
+        "`c;language set` - Set the language ({CURRENTLANGUAGE})",
+        "`c;language help` - CountBot Languages Information",
+        "`c;language info` - Specific Language Details",
+        "`c;language list` - View Available Languages",
+        "",
+        " **Please contact us if you'd like to help!**"
+      ],
       "color": "0xfe7e03",
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
@@ -205,14 +308,36 @@
       }
     },
     "help": {
-      "description": " **Hey! Thanks for opening this page!**\n\nThe Magic8 developers have devoted many hours to being able to support other languages. Please consider taking the opportunity to help out!\n\n[**Github Repository**](https://github.com/bremeadev/languages)\n\n**What do you get in return?**\n- Language Contributor Role in our [Support Server](https://discord.gg/w9BqPr8)\n- Free [Triple Package]({TRIPLEPACKAGE})\n- Advertisement on the Magic8 bot or in the #sponsors channel\n- Complete credit for the language\n- Utmost respect from the developers\n- Possibly more\n\n **Please contact us if you'd like to help!**",
+      "description": [
+        "**Hey! Thanks for opening this page!**",
+        "",
+        "The Magic8 developers have devoted many hours to being able to support other languages. Please consider taking the opportunity to help out!",
+        "",
+        "[**Github Repository**](https://github.com/bremeadev/languages)",
+        "",
+        "**What do you get in return?**",
+        "- Language Contributor Role in our [Support Server](https://discord.gg/w9BqPr8)",
+        "- Free [Triple Package]({TRIPLEPACKAGE})",
+        "- Advertisement on the Magic8 bot or in the #sponsors channel",
+        "- Complete credit for the language",
+        "- Utmost respect from the developers",
+        "- Possibly more",
+        "",
+        " **Please contact us if you'd like to help!**"
+      ],
       "color": "0xfe7e03",
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
       }
     },
     "info": {
-      "description": "{FLAG} **{LANGUAGENAME}** (`{LANGUAGESHORT}`)\n\n**Progress:** {PROGRESS}%\n**Authors:**\n{AUTHORS}",
+      "description": [
+        "{FLAG} **{LANGUAGENAME}** (`{LANGUAGESHORT}`)",
+        "",
+        "**Progress:** {PROGRESS}%",
+        "**Authors:**",
+        "{AUTHORS}"
+      ],
       "color": "0xfe7e03"
     }
   },
@@ -220,12 +345,19 @@
     "notagoal": {
       "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
-      "description": "Yikes! Please enter a valid number for the goal. Example: `c;merge 500`\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! Please enter a valid number for the goal. Example: `c;merge 500`",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     },
     "setup": {
       "color": "0xfe7e03",
       "title": "Count to {GOAL}",
-      "description": "**{USER} just setup CountBot in this channel!**\nThe goal is to count to {GOAL} Can you do it?",
+      "description": [
+        "**{USER} just setup CountBot in this channel!**",
+        "The goal is to count to {GOAL} Can you do it?"
+      ],
       "footer": {
         "text": "Tip: Admins can make the challenge harder by changing the slowmode."
       }
@@ -234,13 +366,20 @@
   "milestones": {
     "color": "0xfe7e03",
     "title": "Milestones {ACTION}",
-    "description": "**Milestones have been {ACTION} for this counting channel.** You can change this at any time by running `c;milestones` again.\nAction preformed by {USER}."
+    "description": [
+      "**Milestones have been {ACTION} for this counting channel.** You can change this at any time by running `c;milestones` again.",
+      "Action preformed by {USER}."
+    ]
   },
   "new": {
     "invalidnumber": {
       "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
-      "description": "Yikes! Please enter a valid number. Example: `c;new 500`\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! Please enter a valid number. Example: `c;new 500`",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     },
     "created": {
       "color": "0xfe7e03",
@@ -250,7 +389,10 @@
     "newmessage": {
       "color": "0xfe7e03",
       "title": "Count to {GOAL}",
-      "description": "**{USER} just made a new counting channel!**\nThe goal is to count to {GOAL}. Can you do it?",
+      "description": [
+        "**{USER} just made a new counting channel!**",
+        "The goal is to count to {GOAL}. Can you do it?"
+      ],
       "footer": {
         "text": "Tip: Admins can make the challenge harder by changing the slowmode."
       }
@@ -271,24 +413,37 @@
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
       },
-      "description": "Ping pong, pong ping?\n**{PING}ms**"
+      "description": [
+        "Ping pong, pong ping?",
+        "**{PING}ms**"
+      ]
     }
   },
   "powerups": {
     "color": "0xfe7e03",
     "title": "Powerups {ACTION}",
-    "description": "**Powerups have been {ACTION} for this counting channel.** You can change this at any time by running `c;powerups` again.\nAction preformed by {USER}."
+    "description": [
+      "**Powerups have been {ACTION} for this counting channel.** You can change this at any time by running `c;powerups` again.",
+      "Action preformed by {USER}."
+    ]
   },
   "setgoal": {
     "invalidnumber": {
       "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
-      "description": "Yikes! Please enter a valid number that's higher than the current goal. Example: `c;setgoal {EXAMPLEGOAL}`\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! Please enter a valid number that's higher than the current goal. Example: `c;setgoal {EXAMPLEGOAL}`",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     },
     "extended": {
       "color": "0xfe7e03",
       "title": "Goal extended",
-      "description": "**The goal of this channel has been changed!** The new goal is to count to {USER}.\nAction preformed by {USER}."
+      "description": [
+        "**The goal of this channel has been changed!** The new goal is to count to {USER}.",
+        "Action preformed by {USER}."
+      ]
     }
   },
   "shop": {
@@ -299,19 +454,31 @@
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
       },
-      "description": "**The CountBot Shop is available at [https://bremea.com/countbot/shop](https://bremea.com/countbot/shop)**\n\nYou can do `c;shop [query]` to search the shop for items and get links to buy them"
+      "description": [
+        "**The CountBot Shop is available at [https://bremea.com/countbot/shop](https://bremea.com/countbot/shop)**",
+        "",
+        "You can do `c;shop [query]` to search the shop for items and get links to buy them"
+      ]
     }
   },
   "use": {
     "noitemid": {
       "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
-      "description": "Yikes! Please enter an item id (run `c;inventory` to get a list of items in your inventory and their IDs). Example: `c;use p-s5`\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! Please enter an item id (run `c;inventory` to get a list of items in your inventory and their IDs). Example: `c;use p-s5`",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     },
     "notininventory": {
       "color": "0xfe7e03",
       "title": "Error 404 <:flushed_think:735637678137016381>",
-      "description": "Yikes! It doesn't look like you have any items in your inventory that have the ID `{ITEM}` (you can run `c;inventory` to get a list of items in your inventory and their IDs).\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": [
+        "Yikes! It doesn't look like you have any items in your inventory that have the ID `{ITEM}` (you can run `c;inventory` to get a list of items in your inventory and their IDs).",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
     }
   }
 }
