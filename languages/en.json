@@ -72,7 +72,7 @@
       ],
       "timestamp": "{TIMESTAMP}",
       "thumbnail": {
-        "url": "https: //u.cubeupload.com/BGMead/cbtdarkcircle.png"
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
       }
     },
     "message": "**Item purchased!**"
@@ -87,18 +87,18 @@
   "help": {
     "helptitle": "CountBot Help",
     "notacommand": {
-      "title": "CountBot Help",
-      "description": "Hmm... it seems that command doesn't exist. Check the spelling and try again."
+      "description": [
+        "Hmm... it seems that command doesn't exist. Check the spelling and try again."
+      ]
     },
-    "aliases": "Aliases:",
-    "description": "Description:",
+    "aliases": "Aliases",
+    "description": "Description",
     "usage": "Usage",
-    "cooldown": "Cooldown: {COOLDOWN} seconds",
+    "cooldown": "**Cooldown:** {COOLDOWN} seconds",
     "countonly": "\n:warning: **This command can only be used in counting channels.**",
-    "admin": ":warning: **This command can only be members who have \"Manage Channel\" permissions.**",
+    "adminonly": ":warning: **This command can only be members who have \"Manage Channel\" permissions.**",
     "command": {
-      "title": "{COMMAND} | {HELPTITLE}",
-      "description": "{DATA}"
+      "title": "{COMMAND} | {HELPTITLE}"
     },
     "title": "CountBot Help",
     "mainmenu": {
@@ -269,7 +269,7 @@
         "Here you can manage the language of <@727569067895947383>!",
         "",
         "**Available Commands:**",
-        "`c;language set` - Set the language ({CURRENTLANGUAGE})",
+        "`c;language set` - Set the language (`{CURRENTLANGUAGE}`)",
         "`c;language help` - CountBot Languages Information",
         "`c;language info` - Specific Language Details",
         "`c;language list` - View Available Languages",
