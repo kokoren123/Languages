@@ -12,7 +12,6 @@
     "channeltopic": "**Count to {GOAL}!** Powered by <@727569067895947383>",
     "channelname": "count-to-{GOAL}",
     "noserverpermission": {
-      "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Server\" permission.**",
@@ -21,7 +20,6 @@
       ]
     },
     "nochannelpermission": {
-      "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Channel\" permission.**",
@@ -30,7 +28,6 @@
       ]
     },
     "nodevpermission": {
-      "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! It looks like you don't have proper permissions to run this command. **Only bremea development staff can use this command.**",
@@ -39,7 +36,6 @@
       ]
     },
     "nobotpermission": {
-      "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! It looks like I don't have proper permissions to run this command. **Make sure I have \"Manage Channel\" permission and my role is higher than your server's bot role.**",
@@ -48,7 +44,6 @@
       ]
     },
     "alreadyhaschannel": {
-      "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! It looks like you already have a counting channel running in this server - <#' + cg.channelid + '>. Currently, we limit servers to one couting channel at a time.",
@@ -57,7 +52,6 @@
       ]
     },
     "notacountingchannel": {
-      "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! It doesn't look like this is a counting channel. **Make sure the last message sent is a valid, positive integer.**",
@@ -68,7 +62,6 @@
   },
   "buyitem": {
     "embed": {
-      "color": "0xfe7e03",
       "title": "You bought: {ITEM}",
       "description": [
         "A {ITEM} was bought via the [CountBot Shop](https://bremea.com/countbot/shop)",
@@ -85,7 +78,6 @@
     "message": "**Item purchased!**"
   },
   "curses": {
-    "color": "0xfe7e03",
     "title": "Curses {ACTION}",
     "description": [
       "**Curses have been {ACTION} for this counting channel.** You can change this at any time by running `c;curses` again.",
@@ -95,7 +87,6 @@
   "help": {
     "helptitle": "CountBot Help",
     "notacommand": {
-      "color": "0xfe7e03",
       "title": "CountBot Help",
       "description": "Hmm... it seems that command doesn't exist. Check the spelling and try again."
     },
@@ -106,13 +97,11 @@
     "countonly": "\n:warning: **This command can only be used in counting channels.**",
     "admin": ":warning: **This command can only be members who have \"Manage Channel\" permissions.**",
     "command": {
-      "color": "0xfe7e03",
       "title": "{COMMAND} | {HELPTITLE}",
       "description": "{DATA}"
     },
     "title": "CountBot Help",
     "mainmenu": {
-      "color": "0xfe7e03",
       "title": "CountBot Help",
       "description": "Use `c;h <command>` to learn more about a command | **[Need help? Click here.](https://discord.gg/meWdwaJ)**",
       "fields": [
@@ -143,7 +132,6 @@
     }
   },
   "info": {
-    "color": "0xfe7e03",
     "title": "CountBot Information",
     "thumbnail": {
       "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
@@ -185,7 +173,6 @@
   },
   "inventory": {
     "noitems": {
-      "color": "0xfe7e03",
       "title": "Error 404 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! It doesn't look like you have any items in your inventory. **You can buy items at the [CountBot Shop](https://bremea.com/countbot/shop).**",
@@ -194,7 +181,6 @@
       ]
     },
     "hasitems": {
-      "color": "0xfe7e03",
       "title": "Your Inventory",
       "url": "https://bremea.com/countbot/inventory",
       "description": "You can buy more items with `c;shop`",
@@ -202,7 +188,6 @@
     }
   },
   "invite": {
-    "color": "0xfe7e03",
     "title": "Click here to invite CountBot <:join:771461201443422208>",
     "url": "https://discord.com/oauth2/authorize?client_id=727569067895947383&permissions=76881&redirect_uri=https%3A%2F%2Fdiscord.com%2Finvite%2F2JBFupp&response_type=code&scope=identify%20bot",
     "thumbnail": {
@@ -234,8 +219,7 @@
         "`{AVAILABLELANGUAGES}`",
         "",
         "English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
-      ],
-      "color": "0xfe7e03"
+      ]
     },
     "alreadyselected": {
       "description": [
@@ -244,8 +228,7 @@
         "**Language:** `{CURRENTLANGUAGE}`",
         "",
         "Please select a new language for your server."
-      ],
-      "color": "0xfe7e03"
+      ]
     },
     "updatedlanguage": {
       "description": [
@@ -254,16 +237,14 @@
         "If you want to contribute with translations in your native language, join our [Support Server]({INVITE})",
         "",
         "English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
-      ],
-      "color": "0xfe7e03"
+      ]
     },
     "invalidpage": {
       "description": [
         "**Invalid Page Provided:** `{INPUT}`",
         "",
         "Please provide a page number between **1** and **{TOTALPAGES}**."
-      ],
-      "color": "0xfe7e03"
+      ]
     },
     "languageslist": {
       "description": [
@@ -273,12 +254,11 @@
         "",
         "{LANGUAGES}"
       ],
-      "color": "0xfe7e03",
       "thumbnail": {
         "url": "https://cdn.discordapp.com/avatars/709874163988299848/5cc73007fd0e6788a3b98628bf077eb5.png"
       },
       "author": {
-        "name": "CountBot - Languages List ({PAGE}/{MAXPAGES})"
+        "name": "CountBot - Languages List ({PAGE}/{TOTALPAGES})"
       },
       "footer": {
         "text": "⏲️ Last Updated: {TIME}"
@@ -296,7 +276,6 @@
         "",
         " **Please contact us if you'd like to help!**"
       ],
-      "color": "0xfe7e03",
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
       },
@@ -325,7 +304,6 @@
         "",
         " **Please contact us if you'd like to help!**"
       ],
-      "color": "0xfe7e03",
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
       }
@@ -337,13 +315,11 @@
         "**Progress:** {PROGRESS}%",
         "**Authors:**",
         "{AUTHORS}"
-      ],
-      "color": "0xfe7e03"
+      ]
     }
   },
   "merge": {
     "notagoal": {
-      "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! Please enter a valid number for the goal. Example: `c;merge 500`",
@@ -352,7 +328,6 @@
       ]
     },
     "setup": {
-      "color": "0xfe7e03",
       "title": "Count to {GOAL}",
       "description": [
         "**{USER} just setup CountBot in this channel!**",
@@ -364,7 +339,6 @@
     }
   },
   "milestones": {
-    "color": "0xfe7e03",
     "title": "Milestones {ACTION}",
     "description": [
       "**Milestones have been {ACTION} for this counting channel.** You can change this at any time by running `c;milestones` again.",
@@ -373,7 +347,6 @@
   },
   "new": {
     "invalidnumber": {
-      "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! Please enter a valid number. Example: `c;new 500`",
@@ -382,12 +355,10 @@
       ]
     },
     "created": {
-      "color": "0xfe7e03",
       "title": "Counting Channel Created",
       "description": "**Look, a brand new channel - {CHANNEL}!** The goal is to count to {GOAL}, can you make it?"
     },
     "newmessage": {
-      "color": "0xfe7e03",
       "title": "Count to {GOAL}",
       "description": [
         "**{USER} just made a new counting channel!**",
@@ -400,7 +371,6 @@
   },
   "ping": {
     "start": {
-      "color": "0xfe7e03",
       "title": "Ping",
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
@@ -408,7 +378,6 @@
       "description": "One second... <a:loading2:771440180250017832>"
     },
     "end": {
-      "color": "0xfe7e03",
       "title": "Ping",
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
@@ -420,7 +389,6 @@
     }
   },
   "powerups": {
-    "color": "0xfe7e03",
     "title": "Powerups {ACTION}",
     "description": [
       "**Powerups have been {ACTION} for this counting channel.** You can change this at any time by running `c;powerups` again.",
@@ -429,7 +397,6 @@
   },
   "setgoal": {
     "invalidnumber": {
-      "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! Please enter a valid number that's higher than the current goal. Example: `c;setgoal {EXAMPLEGOAL}`",
@@ -438,7 +405,6 @@
       ]
     },
     "extended": {
-      "color": "0xfe7e03",
       "title": "Goal extended",
       "description": [
         "**The goal of this channel has been changed!** The new goal is to count to {USER}.",
@@ -448,7 +414,6 @@
   },
   "shop": {
     "mainmenu": {
-      "color": "0xfe7e03",
       "title": "Click Here to go to the Shop 🛒",
       "url": "https://bremea.com/countbot/shop",
       "thumbnail": {
@@ -463,7 +428,6 @@
   },
   "use": {
     "noitemid": {
-      "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! Please enter an item id (run `c;inventory` to get a list of items in your inventory and their IDs). Example: `c;use p-s5`",
@@ -472,7 +436,6 @@
       ]
     },
     "notininventory": {
-      "color": "0xfe7e03",
       "title": "Error 404 <:flushed_think:735637678137016381>",
       "description": [
         "Yikes! It doesn't look like you have any items in your inventory that have the ID `{ITEM}` (you can run `c;inventory` to get a list of items in your inventory and their IDs).",
