@@ -1,3 +1,7 @@
 [
-  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/en.json"
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/ar.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/en.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/es.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/fr.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/jp.json"
 ]
