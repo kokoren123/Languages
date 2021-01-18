@@ -14,7 +14,12 @@
     "noserverpermission": {
       "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
-      "description": "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Channel\" perms.**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Server\" permission.**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+    },
+    "nochannelpermission": {
+      "color": "0xfe7e03",
+      "title": "Error 403 <:flushed_think:735637678137016381>",
+      "description": "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Channel\" permission.**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
     },
     "nodevpermission": {
       "color": "0xfe7e03",
@@ -24,7 +29,7 @@
     "nobotpermission": {
       "color": "0xfe7e03",
       "title": "Error 403 <:flushed_think:735637678137016381>",
-      "description": "Yikes! It looks like I don't have proper permissions to run this command. **Make sure I have \"Manage Channel\" perms and my role is higher than your bot role.**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      "description": "Yikes! It looks like I don't have proper permissions to run this command. **Make sure I have \"Manage Channel\" permission and my role is higher than your server's bot role.**\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
     },
     "alreadyhaschannel": {
       "color": "0xfe7e03",
@@ -38,23 +43,16 @@
     }
   },
   "buyitem": {
-    "title": "You bought {ITEM}",
-    "description": [
-      "A {ITEM} was bought via the [CountBot Shop](https://bremea.com/countbot/shop)",
-      "",
-      "**Your Coins:** {COINSEMOJI}{COINS}",
-      "**Remaining Coins:** {COINSEMOJI}{COINS}",
-      "Didn't get that item? [Let us know.](https://discord.gg/meWdwaJ)"
-    ]
-  },
-  "coinadd": {
-    "nopermission": {
-      "description": [
-        "Yikes! It looks like you don't have proper permissions to run this command. **Only bremea development staff can use this command.**",
-        "",
-        "**Need help? [Join our support server.](https://discord.gg/meWdwaJ)**"
-      ]
-    }
+    "embed": {
+      "color": "0xfe7e03",
+      "title": "You bought: {ITEM}",
+      "description": "A {ITEM} was bought via the [CountBot Shop](https://bremea.com/countbot/shop)\n\n**Your Coins:** <:countbot_coin2:771441683535495179>{COINS}\n**Remaining Coins: <:countbot_coin2:771441683535495179>{REMAINING}**\n**Didn't get the item? [Let us know.](https://discord.gg/meWdwaJ)**",
+      "timestamp": "{TIMESTAMP}",
+      "thumbnail": {
+        "url": "https: //u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      }
+    },
+    "message": "**Item purchased!**"
   },
   "curses": {
     "color": "0xfe7e03",
@@ -160,9 +158,9 @@
     "outdated": "Not Up To Date",
     "uptodate": "Up To Date",
     "statements": {
-      "togithub": "{INFO} Click on a language to be taken to the GitHub Repository.",
-      "set": "{INFO} To set this server's language, type the abbreviation.",
-      "info": "{INFO} Type the language abbreviation for more information."
+      "togithub": "Click on a language to be taken to the GitHub Repository.",
+      "set": "To set this server's language, type the abbreviation.",
+      "info": "Type the language abbreviation for more information."
     },
     "invalidlanguage": {
       "description": "**Invalid Language Provided:** `{INPUT}`\n\n**Current:** `{CURRENTLANGUAGE}`\n\n**Available Languages:**\n`{AVAILABLELANGUAGES}`\n\nEnglish is the primary language and fully supported. Some commands may appear in English even though your language is set to another.",
@@ -194,7 +192,7 @@
       }
     },
     "menu": {
-      "description": "Here you can manage the language of <@727569067895947383>!\n\n**Available Commands:**\n`c;language set` - Set the language (`en`)\n`c;language help` - CountBot Languages Information\n`c;language info` - Specific Language Details\n`c;language list` - View Available Languages\n\n **Please contact us if you'd like to help!**",
+      "description": "Here you can manage the language of <@727569067895947383>!\n\n**Available Commands:**\n`c;language set` - Set the language ({CURRENTLANGUAGE})\n`c;language help` - CountBot Languages Information\n`c;language info` - Specific Language Details\n`c;language list` - View Available Languages\n\n **Please contact us if you'd like to help!**",
       "color": "0xfe7e03",
       "thumbnail": {
         "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
@@ -309,11 +307,11 @@
       "color": "0xfe7e03",
       "title": "Error 400 <:flushed_think:735637678137016381>",
       "description": "Yikes! Please enter an item id (run `c;inventory` to get a list of items in your inventory and their IDs). Example: `c;use p-s5`\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+    },
+    "notininventory": {
+      "color": "0xfe7e03",
+      "title": "Error 404 <:flushed_think:735637678137016381>",
+      "description": "Yikes! It doesn't look like you have any items in your inventory that have the ID `{ITEM}` (you can run `c;inventory` to get a list of items in your inventory and their IDs).\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
     }
-  },
-  "notininventory": {
-    "color": "0xfe7e03",
-    "title": "Error 404 <:flushed_think:735637678137016381>",
-    "description": "Yikes! It doesn't look like you have any items in your inventory that have the ID `{ITEM}` (you can run `c;inventory` to get a list of items in your inventory and their IDs).\n\n**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
   }
 }
