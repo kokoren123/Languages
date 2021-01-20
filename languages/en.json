@@ -9,8 +9,16 @@
   "global": {
     "disabled": "disabled",
     "enabled": "enabled",
-    "channeltopic": "**Count to {GOAL}!** Powered by <@727569067895947383>",
-    "channelname": "count-to-{GOAL}",
+    "countingchanneltopic": "**Count to {GOAL}!** Powered by <@727569067895947383>",
+    "countingchannelname": "count-to-{GOAL}",
+    "usernotfound": {
+      "title": "Error 404 <:flushed_think:735637678137016381>",
+      "description": [
+        "Yikes! That user wasn't found or that user hasn't interacted with CountBot before.",
+        "",
+        "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
     "noserverpermission": {
       "title": "Error 403 <:flushed_think:735637678137016381>",
       "description": [
@@ -46,7 +54,7 @@
     "alreadyhaschannel": {
       "title": "Error 403 <:flushed_think:735637678137016381>",
       "description": [
-        "Yikes! It looks like you already have a counting channel running in this server - <#' + cg.channelid + '>. Currently, we limit servers to one couting channel at a time.",
+        "Yikes! It looks like you already have a counting channel running in this server - {CHANNEL}. Currently, we limit servers to one couting channel at a time.",
         "",
         "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
       ]
@@ -143,16 +151,16 @@
         "value": [
           "Prefix: `c;`",
           "Help Command: `c;help`",
-          "Library: `discord.js@12.4.1`",
-          "Node Version: `v14.15.2`",
-          "Bot Version: `v2.3.3`"
+          "Library: `{LIBRARY}`",
+          "Node Version: `{NODEVERSION}`",
+          "Bot Version: `{BOTVERSION}`"
         ],
         "inline": true
       },
       {
         "name": "Statistics",
         "value": [
-          "Servers: `{GUILDS}`",
+          "Servers: `{SERVERS}`",
           "Users: `{USERS}`",
           "Channels: `{CHANNELS}`"
         ],
@@ -182,14 +190,12 @@
     },
     "hasitems": {
       "title": "Your Inventory",
-      "url": "https://bremea.com/countbot/inventory",
       "description": "You can buy more items with `c;shop`",
-      "fields": []
+      "footer": "'...and {NUMBER} more"
     }
   },
   "invite": {
     "title": "Click here to invite CountBot <:join:771461201443422208>",
-    "url": "https://discord.com/oauth2/authorize?client_id=727569067895947383&permissions=76881&redirect_uri=https%3A%2F%2Fdiscord.com%2Finvite%2F2JBFupp&response_type=code&scope=identify%20bot",
     "thumbnail": {
       "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
     },
@@ -260,9 +266,7 @@
       "author": {
         "name": "CountBot - Languages List ({PAGE}/{TOTALPAGES})"
       },
-      "footer": {
-        "text": "⏲️ Last Updated: {TIME}"
-      }
+      "footer": "⏲️ Last Updated: {TIME}"
     },
     "menu": {
       "description": [
@@ -282,9 +286,7 @@
       "author": {
         "name": "CountBot - Languages Menu"
       },
-      "footer": {
-        "text": "⏲️ Last Updated: {TIME}"
-      }
+      "footer": "⏲️ Last Updated: {TIME}"
     },
     "help": {
       "description": [
@@ -359,29 +361,22 @@
       "description": "**Look, a brand new channel - {CHANNEL}!** The goal is to count to {GOAL}, can you make it?"
     },
     "newmessage": {
+      "rawtext": "A wild counting channel appeared! **Start counting with 1.**",
       "title": "Count to {GOAL}",
       "description": [
         "**{USER} just made a new counting channel!**",
         "The goal is to count to {GOAL}. Can you do it?"
       ],
-      "footer": {
-        "text": "Tip: Admins can make the challenge harder by changing the slowmode."
-      }
+      "footer": "Tip: Admins can make the challenge harder by changing the slowmode."
     }
   },
   "ping": {
     "start": {
-      "title": "Ping",
-      "thumbnail": {
-        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
-      },
+      "title": "Pinging",
       "description": "One second... <a:loading2:771440180250017832>"
     },
     "end": {
-      "title": "Ping",
-      "thumbnail": {
-        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
-      },
+      "title": "Pinged",
       "description": [
         "Ping pong, pong ping?",
         "**{PING}ms**"
@@ -426,6 +421,14 @@
       ]
     }
   },
+  "stats": {
+    "fetchingstats": {
+      "title": "Stats for {USERTAG}",
+      "description": [
+        "Fetching stats, please wait... <a:loading2:771440180250017832>"
+      ]
+    }
+  },
   "use": {
     "noitemid": {
       "title": "Error 400 <:flushed_think:735637678137016381>",
@@ -443,5 +446,16 @@
         "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
       ]
     }
+  },
+  "vote": {
+    "title": "Click here to vote for CountBot <a:upvote: 771459301965168710>",
+    "description": [
+      "**Vote for CountBot & Get Cool Rewards 👇**",
+      "",
+      "❓ **Voter's Box**",
+      "⬆️ **Voter Badge**",
+      "<:countbot_coin2: 771441683535495179> **125 Coins**",
+      "<:sparkles_blue: 735669071714058321> **250 XP**"
+    ]
   }
 }
