@@ -1,8 +1,26 @@
 [
   "https://raw.githubusercontent.com/bremeadev/languages/master/languages/ar.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/cs.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/de.json",
   "https://raw.githubusercontent.com/bremeadev/languages/master/languages/en.json",
   "https://raw.githubusercontent.com/bremeadev/languages/master/languages/es.json",
   "https://raw.githubusercontent.com/bremeadev/languages/master/languages/fr.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/he.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/hr.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/id.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/it.json",
   "https://raw.githubusercontent.com/bremeadev/languages/master/languages/jp.json",
-  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/tr.json"
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/ko.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/ne.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/nl.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/pl.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/pt.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/ro.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/ru.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/sk.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/sr.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/sv.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/tr.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/vi.json",
+  "https://raw.githubusercontent.com/bremeadev/languages/master/languages/zh.json"
 ]
