@@ -7,6 +7,8 @@
     "bremea#8975"
   ],
   "global": {
+    "followingstatus": "Status updates for <@727569067895947383> will automatically be sent here. To disable them, go to your Integrations settings for your server.",
+    "notfollowingstatus": "To be notified of <@727569067895947383>'s status updates, please type: `c;settings status` in the channel you wish updates to be posted in.",
     "disabled": "disabled",
     "enabled": "enabled",
     "countingchanneltopic": "**Count to {GOAL}!** Powered by <@727569067895947383>",
@@ -84,13 +86,6 @@
       }
     },
     "message": "**Item purchased!**"
-  },
-  "curses": {
-    "title": "Curses {ACTION}",
-    "description": [
-      "**Curses have been {ACTION} for this counting channel.** You can change this at any time by running `c;curses` again.",
-      "Action preformed by {USER}."
-    ]
   },
   "help": {
     "helptitle": "CountBot Help",
@@ -382,13 +377,6 @@
         "**{PING}ms**"
       ]
     }
-  },
-  "powerups": {
-    "title": "Powerups {ACTION}",
-    "description": [
-      "**Powerups have been {ACTION} for this counting channel.** You can change this at any time by running `c;powerups` again.",
-      "Action preformed by {USER}."
-    ]
   },
   "setgoal": {
     "invalidnumber": {
