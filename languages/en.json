@@ -390,7 +390,7 @@
     "extended": {
       "title": "Goal extended",
       "description": [
-        "**The goal of this channel has been changed!** The new goal is to count to {USER}.",
+        "**The goal of this channel has been changed!** The new goal is to count to {GOAL}.",
         "Action preformed by {USER}."
       ]
     }
