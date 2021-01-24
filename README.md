@@ -23,7 +23,7 @@ The developers of CountBot have spent the past few weeks moving all messages int
 - If a user reports a translation and we discover that it is in fact a misleading/irrelevant translation, you will be held responsible and punished 
 
 ## Possible Rewards
-- A generous amount of coins and/or creates
+- A generous amount of coins and/or crates
 
 Please only translate files to your known language if you are already **somewhat fluent** in English. This way, you can understand the grammar and make proper changes. If you ever have a question about a word or phrase, do not hesitate to contact support.
 
