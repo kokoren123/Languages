@@ -90,7 +90,7 @@
         "helptitle": "CountBot Help",
         "notacommand": {
             "description": [
-                "נראה כאילו הפקודה הזאת לא קיימת. תבדוק את האיות ונסה שובS."
+                "נראה כאילו הפקודה הזאת לא קיימת. תבדוק את האיות ונסה שוב."
             ]
         },
         "aliases": "קיצורים",
@@ -105,7 +105,7 @@
         "title": "CountBot Help",
         "mainmenu": {
             "title": "CountBot Help",
-            "description": "השתמש  ב`c;h <command>` כדי לדעת עוד על פקודה כלשהי | **[צריך עזרה? תלחץ פה.](https://discord.gg/meWdwaJ)**",
+            "description": "השתמש  ב`c;h <פקודה>` כדי לדעת עוד על פקודה כלשהי | **[צריך עזרה? תלחץ פה.](https://discord.gg/meWdwaJ)**",
             "fields": [
                 {
                     "name": "פקודות הכנה",
@@ -143,20 +143,20 @@
             {
                 "name": "ראשי",
                 "value": [
-                    "Prefix: `c;`",
-                    "Help Command: `c;help`",
-                    "Library: `{LIBRARY}`",
-                    "Node Version: `{NODEVERSION}`",
-                    "Bot Version: `{BOTVERSION}`"
+                    "פרפיקס: `c;`",
+                    "פקודת עזרה: `c;help`",
+                    "ספרייה: `{LIBRARY}`",
+                    "גרסת ה\"node\": `{NODEVERSION}`",
+                    "גרסת הבוט: `{BOTVERSION}`"
                 ],
                 "inline": true
             },
             {
                 "name": "סטטיסטיקות",
                 "value": [
-                    "Servers: `{SERVERS}`",
-                    "Users: `{USERS}`",
-                    "Channels: `{CHANNELS}`"
+                    "שרתים: `{SERVERS}`",
+                    "משתמשים: `{USERS}`",
+                    "חדרים: `{CHANNELS}`"
                 ],
                 "inline": true
             },
@@ -202,7 +202,7 @@
         ]
     },
     "language": {
-        "outdated": "לא מעודכןד",
+        "outdated": "לא מעודכן",
         "uptodate": "מעודכן",
         "statements": {
             "togithub": "תלחץ על שפה כלשהי כדי להגיע לGitHub שלה.",
@@ -370,7 +370,7 @@
             "description": "שנייה אחת... <a:loading2:771440180250017832>"
         },
         "end": {
-            "title": "חושב!",
+            "title": "חישבתי!",
             "description": [
                 "פינג פונג, פונג פינג?",
                 "**{PING}ms**"
@@ -381,7 +381,7 @@
         "invalidnumber": {
             "title": "שגיאה 400 <:flushed_think:735637678137016381>",
             "description": [
-                "אוי! בבקשה תכניס מספר אמיתי שגבוה מהמטרה הנוכחית. Example: `c;setgoal {EXAMPLEGOAL}`",
+                "אוי! בבקשה תכניס מספר אמיתי שגבוה מהמטרה הנוכחית. דוגמה: `c;setgoal {EXAMPLEGOAL}`",
                 "",
                 "**צריך עזרה? [היכנס לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
             ]
