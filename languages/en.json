@@ -238,7 +238,8 @@
         "If you want to contribute with translations in your native language, join our [Support Server]({INVITE})",
         "",
         "English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
-      ]
+      ],
+      "footer": "⏲️ Last Updated: {TIME}"
     },
     "invalidpage": {
       "description": [
@@ -382,7 +383,7 @@
     "invalidnumber": {
       "title": "Error 400 <:flushed_think:735637678137016381>",
       "description": [
-        "Yikes! Please enter a valid number that's higher than the current goal. Example: `c;setgoal {EXAMPLEGOAL}`",
+        "Yikes! Please enter a valid number that's higher than the current goal. Example: `c;setgoal 500`",
         "",
         "**Need help? [Join our support server.](https://discord.gg/w9BqPr8)**"
       ]
