@@ -1,7 +1,8 @@
 {
   "languagenamelong": "日本人",
-  "languagenameshort": "jp",
+  "languagenameshort": "ja",
   "flag": "🇯🇵",
+  "locale": "ja-JP",
   "authors": [
     "none"
   ]
