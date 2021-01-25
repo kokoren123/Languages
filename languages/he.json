@@ -1,448 +1,449 @@
 {
-    "languagenamelong": "Hebrew",
-    "languagenameshort": "he",
-    "flag": "🇮🇱",
-    "authors": [
-        "קורן#0001"
-    ],
-    "global": {
-        "followingstatus": "עדכוני סטטוס בשביל <@727569067895947383> ישלחו פה בצורה אוטומטית. כדי לבטל אותם, לך להגדרות הIntegrations בשרת שלך.",
-        "notfollowingstatus": "כדי להיות מעודכן על עדכוני הסטטוס של <@727569067895947383>, בבקשה תכתוב: `c;settings status` בחדר שאתה רוצה שיהיו בו העדכונים.",
-        "disabled": "מבוטל",
-        "enabled": "מופעל",
-        "countingchanneltopic": "**תספור ל {GOAL}!** מתוחזק ע\"י <@727569067895947383>",
-        "countingchannelname": "סופרים-ל{GOAL}",
-        "usernotfound": {
-            "title": "שגיאה 404 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! המשתמש הזה לא נמצאאו שהוא לא השתמש ב \"CountBot\" לפני כן.",
-                "",
-                "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "noserverpermission": {
-            "title": "שגיאה 403 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! נראה שאין לך גישות מתאימות להפעלת פקודה זו. **צריך שיהיו לך את גישות ה \"Manage Server\".**",
-                "",
-                "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "nochannelpermission": {
-            "title": "שגיאה 403 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! נראה שאין לך גישות מתאימות להפעלת פקודה זו. **צריך שיהיו לך את גישות ה \"Manage Channel\".**",
-                "",
-                "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "nodevpermission": {
-            "title": "שגיאה 403 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! נראה שאין לך גישות מתאימות להפעלת פקודה זו. **רק המתכנתים של bremea יכולים להשתמש בפקודה זאת.**",
-                "",
-                "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "nobotpermission": {
-            "title": "שגיאה 403 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! נראה שאין לי גישות מתאימות להפעלת פקודה זו. **אני צריך שיהיו לי את גישות ה \"Manage Channel\" ושהרול שלי יהיה יותר גבוה מהרול של הבוט בשרת שלכם.**",
-                "",
-                "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "alreadyhaschannel": {
-            "title": "שגיאה 403 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! נראה שכבר יש לכם חדר ספירה בשרת - {CHANNEL}. כרגע, אנחנו מגבילים שרתים לחדר ספירה אחד בו זמנית.",
-                "",
-                "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "notacountingchannel": {
-            "title": "שגיאה 400 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! זה נראה כאילו אין לכם חדר ספירה. **וודא שההודעה האחרונה שנשלחה היא מספר שלם חיובי.**",
-                "",
-                "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        }
+  "languagenamelong": "Hebrew",
+  "languagenameshort": "he",
+  "flag": "🇮🇱",
+  "locale": "he-IL",
+  "authors": [
+    "קורן#0001"
+  ],
+  "global": {
+    "followingstatus": "עדכוני סטטוס בשביל <@727569067895947383> ישלחו פה בצורה אוטומטית. כדי לבטל אותם, לך להגדרות הIntegrations בשרת שלך.",
+    "notfollowingstatus": "כדי להיות מעודכן על עדכוני הסטטוס של <@727569067895947383>, בבקשה תכתוב: `c;settings status` בחדר שאתה רוצה שיהיו בו העדכונים.",
+    "disabled": "מבוטל",
+    "enabled": "מופעל",
+    "countingchanneltopic": "**תספור ל {GOAL}!** מתוחזק ע\"י <@727569067895947383>",
+    "countingchannelname": "סופרים-ל{GOAL}",
+    "usernotfound": {
+      "title": "שגיאה 404 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! המשתמש הזה לא נמצאאו שהוא לא השתמש ב \"CountBot\" לפני כן.",
+        "",
+        "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
     },
-    "buyitem": {
-        "embed": {
-            "title": "אתה קנית: {ITEM}",
-            "description": [
-                "{ITEM} נקנה  [בחנות של CountBot](https://bremea.com/countbot/shop)",
-                "",
-                "**המטבעות שלך:** <:countbot_coin2:771441683535495179>{COINS}",
-                "**מטבעות שנשארו: <:countbot_coin2:771441683535495179>{REMAINING}**",
-                "**לא קיבלתם את הפריט? [תנו לנו לדעת.](https://discord.gg/meWdwaJ)**"
-            ],
-            "timestamp": "{TIMESTAMP}",
-            "thumbnail": {
-                "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
-            }
+    "noserverpermission": {
+      "title": "שגיאה 403 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! נראה שאין לך גישות מתאימות להפעלת פקודה זו. **צריך שיהיו לך את גישות ה \"Manage Server\".**",
+        "",
+        "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "nochannelpermission": {
+      "title": "שגיאה 403 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! נראה שאין לך גישות מתאימות להפעלת פקודה זו. **צריך שיהיו לך את גישות ה \"Manage Channel\".**",
+        "",
+        "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "nodevpermission": {
+      "title": "שגיאה 403 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! נראה שאין לך גישות מתאימות להפעלת פקודה זו. **רק המתכנתים של bremea יכולים להשתמש בפקודה זאת.**",
+        "",
+        "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "nobotpermission": {
+      "title": "שגיאה 403 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! נראה שאין לי גישות מתאימות להפעלת פקודה זו. **אני צריך שיהיו לי את גישות ה \"Manage Channel\" ושהרול שלי יהיה יותר גבוה מהרול של הבוט בשרת שלכם.**",
+        "",
+        "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "alreadyhaschannel": {
+      "title": "שגיאה 403 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! נראה שכבר יש לכם חדר ספירה בשרת - {CHANNEL}. כרגע, אנחנו מגבילים שרתים לחדר ספירה אחד בו זמנית.",
+        "",
+        "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "notacountingchannel": {
+      "title": "שגיאה 400 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! זה נראה כאילו אין לכם חדר ספירה. **וודא שההודעה האחרונה שנשלחה היא מספר שלם חיובי.**",
+        "",
+        "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    }
+  },
+  "buyitem": {
+    "embed": {
+      "title": "אתה קנית: {ITEM}",
+      "description": [
+        "{ITEM} נקנה  [בחנות של CountBot](https://bremea.com/countbot/shop)",
+        "",
+        "**המטבעות שלך:** <:countbot_coin2:771441683535495179>{COINS}",
+        "**מטבעות שנשארו: <:countbot_coin2:771441683535495179>{REMAINING}**",
+        "**לא קיבלתם את הפריט? [תנו לנו לדעת.](https://discord.gg/meWdwaJ)**"
+      ],
+      "timestamp": "{TIMESTAMP}",
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      }
+    },
+    "message": "**פריט נקנה!**"
+  },
+  "help": {
+    "helptitle": "CountBot Help",
+    "notacommand": {
+      "description": [
+        "נראה כאילו הפקודה הזאת לא קיימת. תבדוק את האיות ונסה שוב."
+      ]
+    },
+    "aliases": "קיצורים",
+    "description": "תיאור",
+    "usage": "השתמשות",
+    "cooldown": "**זמן המתנה:** {COOLDOWN} שניות",
+    "countonly": "\n:warning: **אפשר להשתמש בפקודה הזאת רק בחדרי ספירה.**",
+    "adminonly": ":warning: **הפקודה הזאת היא רק למי שיש את גישות ה \"Manage Channel\".**",
+    "command": {
+      "title": "{COMMAND} | {HELPTITLE}"
+    },
+    "title": "CountBot Help",
+    "mainmenu": {
+      "title": "CountBot Help",
+      "description": "השתמש  ב`c;h <פקודה>` כדי לדעת עוד על פקודה כלשהי | **[צריך עזרה? תלחץ פה.](https://discord.gg/meWdwaJ)**",
+      "fields": [
+        {
+          "name": "פקודות הכנה",
+          "value": [
+            "`c;new <number>` ליצור חדר חדש שהמטרת ספירה היא המספר.",
+            "`c;merge` מגדיר את הבוט בערוץ ספירה קיים."
+          ],
+          "inline": false
         },
-        "message": "**פריט נקנה!**"
+        {
+          "name": "פקודות הגדרה",
+          "value": "`c;milestones`, `c;powerups`, `c;curses`, `c;userlimit`, `c;setgoal`",
+          "inline": true
+        },
+        {
+          "name": "פקודות אחרות",
+          "value": "`c;vote`, `c;stats`, `c;leaderboard`, `c;info`, `c;invite`, `c;ping`",
+          "inline": true
+        },
+        {
+          "name": "פקודות פריטים",
+          "value": "`c;shop`, `c;inventory`, `c;use`",
+          "inline": true
+        }
+      ]
+    }
+  },
+  "info": {
+    "title": "CountBot מידע",
+    "thumbnail": {
+      "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+    },
+    "description": "CountBot הוא בוט קל לשימוש, הניתן להגדרה ומאוד כיף שמנהל חדר ספירה.",
+    "fields": [
+      {
+        "name": "ראשי",
+        "value": [
+          "פרפיקס: `c;`",
+          "פקודת עזרה: `c;help`",
+          "ספרייה: `{LIBRARY}`",
+          "גרסת ה\"node\": `{NODEVERSION}`",
+          "גרסת הבוט: `{BOTVERSION}`"
+        ],
+        "inline": true
+      },
+      {
+        "name": "סטטיסטיקות",
+        "value": [
+          "שרתים: `{SERVERS}`",
+          "משתמשים: `{USERS}`",
+          "חדרים: `{CHANNELS}`"
+        ],
+        "inline": true
+      },
+      {
+        "name": "קישורים",
+        "value": [
+          "שינוים: [http://bit.ly/countbot-update](http://bit.ly/countbot-update)",
+          "תמיכה: [https://discord.gg/nACB8FD](https://discord.gg/nACB8FD)",
+          "Statcord: [https://beta.statcord.com/bot/countbot](https://beta.statcord.com/bot/countbot)",
+          "top.gg: [https://top.gg/bot/727569067895947383](https://top.gg/bot/727569067895947383)",
+          "Discord Labs: [https://dbots.cc/countbot](https://dbots.cc/countbot)"
+        ],
+        "inline": false
+      }
+    ]
+  },
+  "inventory": {
+    "noitems": {
+      "title": "שגיאה 404 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! זה נראה כאילו אין לך פריטים במלאי. **אתה יכול לקנות פריטים ב [CountBot חנות](https://bremea.com/countbot/shop).**",
+        "",
+        "**צריך עזרה? [היכנס לשרת התמיכה.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "hasitems": {
+      "title": "המלאי שלך",
+      "description": "אתה יכול לרנות עוד פריטים עם `c;shop`",
+      "footer": "'...ו {NUMBER} עוד"
+    }
+  },
+  "invite": {
+    "title": "תלחץ כאן כדי להזמין את CountBot <:join:771461201443422208>",
+    "thumbnail": {
+      "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+    },
+    "description": [
+      "**תודה שהזמנת את CountBot!**",
+      "",
+      "**מבולבל?** היכנס [לשרת התמיכה.](https://discord.gg/w9BqPr8)",
+      "**מעוניין באיך להגדיר דברים?** [תלחץ כאן.](https://bots.discordlabs.org/bot/countbot)",
+      "**רוצה לתמוך ב CountBot?** [הצביע לנו.](https://top.gg/bot/727569067895947383/vote)"
+    ]
+  },
+  "language": {
+    "outdated": "לא מעודכן",
+    "uptodate": "מעודכן",
+    "statements": {
+      "togithub": "תלחץ על שפה כלשהי כדי להגיע לGitHub שלה.",
+      "set": "כדי להגדיר את שפת השרת, תכתוב את קיצור השפה.",
+      "info": "תכתוב את קיצור השפה לעוד מידע."
+    },
+    "invalidlanguage": {
+      "description": [
+        "**אני לא יכול למצוא את השפה:** `{INPUT}`",
+        "",
+        "**השפה הנוכחית:** `{CURRENTLANGUAGE}`",
+        "",
+        "**שפות זמינות:**",
+        "`{AVAILABLELANGUAGES}`",
+        "",
+        "אנגלית היא השפה העיקרית ונתמכת באופן מלא. פקודות מסוימות עשויות להופיע באנגלית למרות שהשפה שלך מוגדרת לאחרת."
+      ]
+    },
+    "alreadyselected": {
+      "description": [
+        "**שפה כבר נבחרה**",
+        "",
+        "**שפה:** `{CURRENTLANGUAGE}`",
+        "",
+        "אנא בחר שפה חדשה לשרת שלך."
+      ]
+    },
+    "updatedlanguage": {
+      "description": [
+        "**שפה עודכנה:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%",
+        "",
+        "אם אתה רוצה להיות גם מתרגם עם שפה משלך, היכנס [לשרת התמיכה שלנו]({INVITE})",
+        "",
+        "אנגלית היא השפה העיקרית ונתמכת באופן מלא. פקודות מסוימות עשויות להופיע באנגלית למרות שהשפה שלך מוגדרת לאחרת."
+      ]
+    },
+    "invalidpage": {
+      "description": [
+        "**לא נמצא עמוד:** `{INPUT}`",
+        "",
+        "בבקשה תכתוב מספר עמוד בין **1** ל**{TOTALPAGES}**."
+      ]
+    },
+    "languageslist": {
+      "description": [
+        "**{UPTODATE}**",
+        "",
+        "{STATEMENT}",
+        "",
+        "{LANGUAGES}"
+      ],
+      "thumbnail": {
+        "url": "https://cdn.discordapp.com/avatars/709874163988299848/5cc73007fd0e6788a3b98628bf077eb5.png"
+      },
+      "author": {
+        "name": "CountBot - רשימת שפות ({PAGE}/{TOTALPAGES})"
+      },
+      "footer": "⏲️ עודכן לאחרונה: {TIME}"
+    },
+    "menu": {
+      "description": [
+        "כאן תוכל לשלוט בשפות של <@727569067895947383>!",
+        "",
+        "**פקודות זמינות:**",
+        "`c;language set` - להגדיר שפה (`{CURRENTLANGUAGE}`)",
+        "`c;language help` - מידע על השפות של CountBot",
+        "`c;language info` - מידע על שפה ספציפית",
+        "`c;language list` - רשימה של כל השפות הזמינות",
+        "",
+        " **אנא פנה אלינו אם ברצונך לעזור לנו לתרגם!**"
+      ],
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      },
+      "author": {
+        "name": "CountBot - תפריט שפות"
+      },
+      "footer": "⏲️ עודכן לאחרונה: {TIME}"
     },
     "help": {
-        "helptitle": "CountBot Help",
-        "notacommand": {
-            "description": [
-                "נראה כאילו הפקודה הזאת לא קיימת. תבדוק את האיות ונסה שוב."
-            ]
-        },
-        "aliases": "קיצורים",
-        "description": "תיאור",
-        "usage": "השתמשות",
-        "cooldown": "**זמן המתנה:** {COOLDOWN} שניות",
-        "countonly": "\n:warning: **אפשר להשתמש בפקודה הזאת רק בחדרי ספירה.**",
-        "adminonly": ":warning: **הפקודה הזאת היא רק למי שיש את גישות ה \"Manage Channel\".**",
-        "command": {
-            "title": "{COMMAND} | {HELPTITLE}"
-        },
-        "title": "CountBot Help",
-        "mainmenu": {
-            "title": "CountBot Help",
-            "description": "השתמש  ב`c;h <פקודה>` כדי לדעת עוד על פקודה כלשהי | **[צריך עזרה? תלחץ פה.](https://discord.gg/meWdwaJ)**",
-            "fields": [
-                {
-                    "name": "פקודות הכנה",
-                    "value": [
-                        "`c;new <number>` ליצור חדר חדש שהמטרת ספירה היא המספר.",
-                        "`c;merge` מגדיר את הבוט בערוץ ספירה קיים."
-                    ],
-                    "inline": false
-                },
-                {
-                    "name": "פקודות הגדרה",
-                    "value": "`c;milestones`, `c;powerups`, `c;curses`, `c;userlimit`, `c;setgoal`",
-                    "inline": true
-                },
-                {
-                    "name": "פקודות אחרות",
-                    "value": "`c;vote`, `c;stats`, `c;leaderboard`, `c;info`, `c;invite`, `c;ping`",
-                    "inline": true
-                },
-                {
-                    "name": "פקודות פריטים",
-                    "value": "`c;shop`, `c;inventory`, `c;use`",
-                    "inline": true
-                }
-            ]
-        }
+      "description": [
+        "**היי! תודה שפתחת את העמוד הזה!**",
+        "",
+        "המפתחים של Magic8 הקדישו שעות רבות כדי ש CountBot יוכל לתמוך בשפות אחרות. אנא שקול לנצל את ההזדמנות לעזור!",
+        "",
+        "[**Github Repository**](https://github.com/bremeadev/languages)",
+        "",
+        "**מה אני מקבל בתמורה?**",
+        "- רול של מתרגם [בשרת התמיכה שלנו](https://discord.gg/w9BqPr8)",
+        "-  [Triple Package]({TRIPLEPACKAGE}) בחינם",
+        "- פרסום בבוט Magic8 או בחדר #sponsors",
+        "- קרדיט מלא על השפה",
+        "- כבוד מצד המפתחים",
+        "- עוד בהמשך",
+        "",
+        " **אנא פנה אלינו אם ברצונך לעזור לנו לתרגם!**"
+      ],
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      }
     },
     "info": {
-        "title": "CountBot מידע",
-        "thumbnail": {
-            "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
-        },
-        "description": "CountBot הוא בוט קל לשימוש, הניתן להגדרה ומאוד כיף שמנהל חדר ספירה.",
-        "fields": [
-            {
-                "name": "ראשי",
-                "value": [
-                    "פרפיקס: `c;`",
-                    "פקודת עזרה: `c;help`",
-                    "ספרייה: `{LIBRARY}`",
-                    "גרסת ה\"node\": `{NODEVERSION}`",
-                    "גרסת הבוט: `{BOTVERSION}`"
-                ],
-                "inline": true
-            },
-            {
-                "name": "סטטיסטיקות",
-                "value": [
-                    "שרתים: `{SERVERS}`",
-                    "משתמשים: `{USERS}`",
-                    "חדרים: `{CHANNELS}`"
-                ],
-                "inline": true
-            },
-            {
-                "name": "קישורים",
-                "value": [
-                    "שינוים: [http://bit.ly/countbot-update](http://bit.ly/countbot-update)",
-                    "תמיכה: [https://discord.gg/nACB8FD](https://discord.gg/nACB8FD)",
-                    "Statcord: [https://beta.statcord.com/bot/countbot](https://beta.statcord.com/bot/countbot)",
-                    "top.gg: [https://top.gg/bot/727569067895947383](https://top.gg/bot/727569067895947383)",
-                    "Discord Labs: [https://dbots.cc/countbot](https://dbots.cc/countbot)"
-                ],
-                "inline": false
-            }
-        ]
-    },
-    "inventory": {
-        "noitems": {
-            "title": "שגיאה 404 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! זה נראה כאילו אין לך פריטים במלאי. **אתה יכול לקנות פריטים ב [CountBot חנות](https://bremea.com/countbot/shop).**",
-                "",
-                "**צריך עזרה? [היכנס לשרת התמיכה.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "hasitems": {
-            "title": "המלאי שלך",
-            "description": "אתה יכול לרנות עוד פריטים עם `c;shop`",
-            "footer": "'...ו {NUMBER} עוד"
-        }
-    },
-    "invite": {
-        "title": "תלחץ כאן כדי להזמין את CountBot <:join:771461201443422208>",
-        "thumbnail": {
-            "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
-        },
-        "description": [
-            "**תודה שהזמנת את CountBot!**",
-            "",
-            "**מבולבל?** היכנס [לשרת התמיכה.](https://discord.gg/w9BqPr8)",
-            "**מעוניין באיך להגדיר דברים?** [תלחץ כאן.](https://bots.discordlabs.org/bot/countbot)",
-            "**רוצה לתמוך ב CountBot?** [הצביע לנו.](https://top.gg/bot/727569067895947383/vote)"
-        ]
-    },
-    "language": {
-        "outdated": "לא מעודכן",
-        "uptodate": "מעודכן",
-        "statements": {
-            "togithub": "תלחץ על שפה כלשהי כדי להגיע לGitHub שלה.",
-            "set": "כדי להגדיר את שפת השרת, תכתוב את קיצור השפה.",
-            "info": "תכתוב את קיצור השפה לעוד מידע."
-        },
-        "invalidlanguage": {
-            "description": [
-                "**אני לא יכול למצוא את השפה:** `{INPUT}`",
-                "",
-                "**השפה הנוכחית:** `{CURRENTLANGUAGE}`",
-                "",
-                "**שפות זמינות:**",
-                "`{AVAILABLELANGUAGES}`",
-                "",
-                "אנגלית היא השפה העיקרית ונתמכת באופן מלא. פקודות מסוימות עשויות להופיע באנגלית למרות שהשפה שלך מוגדרת לאחרת."
-            ]
-        },
-        "alreadyselected": {
-            "description": [
-                "**שפה כבר נבחרה**",
-                "",
-                "**שפה:** `{CURRENTLANGUAGE}`",
-                "",
-                "אנא בחר שפה חדשה לשרת שלך."
-            ]
-        },
-        "updatedlanguage": {
-            "description": [
-                "**שפה עודכנה:** `{NEWLANGUAGE}` {FLAG} **{PROGRESS}**%",
-                "",
-                "אם אתה רוצה להיות גם מתרגם עם שפה משלך, היכנס [לשרת התמיכה שלנו]({INVITE})",
-                "",
-                "אנגלית היא השפה העיקרית ונתמכת באופן מלא. פקודות מסוימות עשויות להופיע באנגלית למרות שהשפה שלך מוגדרת לאחרת."
-            ]
-        },
-        "invalidpage": {
-            "description": [
-                "**לא נמצא עמוד:** `{INPUT}`",
-                "",
-                "בבקשה תכתוב מספר עמוד בין **1** ל**{TOTALPAGES}**."
-            ]
-        },
-        "languageslist": {
-            "description": [
-                "**{UPTODATE}**",
-                "",
-                "{STATEMENT}",
-                "",
-                "{LANGUAGES}"
-            ],
-            "thumbnail": {
-                "url": "https://cdn.discordapp.com/avatars/709874163988299848/5cc73007fd0e6788a3b98628bf077eb5.png"
-            },
-            "author": {
-                "name": "CountBot - רשימת שפות ({PAGE}/{TOTALPAGES})"
-            },
-            "footer": "⏲️ עודכן לאחרונה: {TIME}"
-        },
-        "menu": {
-            "description": [
-                "כאן תוכל לשלוט בשפות של <@727569067895947383>!",
-                "",
-                "**פקודות זמינות:**",
-                "`c;language set` - להגדיר שפה (`{CURRENTLANGUAGE}`)",
-                "`c;language help` - מידע על השפות של CountBot",
-                "`c;language info` - מידע על שפה ספציפית",
-                "`c;language list` - רשימה של כל השפות הזמינות",
-                "",
-                " **אנא פנה אלינו אם ברצונך לעזור לנו לתרגם!**"
-            ],
-            "thumbnail": {
-                "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
-            },
-            "author": {
-                "name": "CountBot - תפריט שפות"
-            },
-            "footer": "⏲️ עודכן לאחרונה: {TIME}"
-        },
-        "help": {
-            "description": [
-                "**היי! תודה שפתחת את העמוד הזה!**",
-                "",
-                "המפתחים של Magic8 הקדישו שעות רבות כדי ש CountBot יוכל לתמוך בשפות אחרות. אנא שקול לנצל את ההזדמנות לעזור!",
-                "",
-                "[**Github Repository**](https://github.com/bremeadev/languages)",
-                "",
-                "**מה אני מקבל בתמורה?**",
-                "- רול של מתרגם [בשרת התמיכה שלנו](https://discord.gg/w9BqPr8)",
-                "-  [Triple Package]({TRIPLEPACKAGE}) בחינם",
-                "- פרסום בבוט Magic8 או בחדר #sponsors",
-                "- קרדיט מלא על השפה",
-                "- כבוד מצד המפתחים",
-                "- עוד בהמשך",
-                "",
-                " **אנא פנה אלינו אם ברצונך לעזור לנו לתרגם!**"
-            ],
-            "thumbnail": {
-                "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
-            }
-        },
-        "info": {
-            "description": [
-                "{FLAG} **{LANGUAGENAME}** (`{LANGUAGESHORT}`)",
-                "",
-                "**מוכן ב:** {PROGRESS}%",
-                "**מתרגם/ים:**",
-                "{AUTHORS}"
-            ]
-        }
-    },
-    "merge": {
-        "notagoal": {
-            "title": "שגיאה 400 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! בבקשה תציין מספר אמיתי כמטרה. לדוגמה: `c;merge 500`",
-                "",
-                "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "setup": {
-            "title": "ספירה ל{GOAL}",
-            "description": [
-                "**{USER} הגדיר את COuntBot בחדר הזה!**",
-                "המטרה היא לספור ל{GOAL} אתם יכולים לעשות את זה?"
-            ],
-            "footer": {
-                "text": "טיפ: מנהלים יכולים להקשות על האתגר על ידי שינוי הקולדאון."
-            }
-        }
-    },
-    "milestones": {
-        "title": "מטרה {ACTION}",
-        "description": [
-            "**המטרה {ACTION} לחדר הספירה הזה.** אתה יכול לשנות זאת בכל זמן ע\" הרצת הפקודה `c;milestones` שוב.",
-            "הפעולה נעשתה ע\"י {USER}."
-        ]
-    },
-    "new": {
-        "invalidnumber": {
-            "title": "שגיאה 400 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! בבקשה תכניס מספר אמיתי. לדוגמה: `c;new 500`",
-                "",
-                "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "created": {
-            "title": "חדר ספירה נוצר",
-            "description": "**תסתכל, חדר חדש לגמרי נוצר - {CHANNEL}!** המטרה היא לספור ל {GOAL}, אנחנו יכולים לעשות את זה?"
-        },
-        "newmessage": {
-            "rawtext": "נוצר חדר ספירה חדש! **להתחיל לספור עם 1.**",
-            "title": "ספרו ל{GOAL}",
-            "description": [
-                "**{USER} ממש עכשיו יצר חדר ספירה חדש!**",
-                "המטרה היא לספור ל{GOAL}. אתם יכולים לעשות את זה?"
-            ],
-            "footer": "טיפ: מנהלים יכולים להקשות על האתגר על ידי שינוי הקולדאון."
-        }
-    },
-    "ping": {
-        "start": {
-            "title": "מחשב",
-            "description": "שנייה אחת... <a:loading2:771440180250017832>"
-        },
-        "end": {
-            "title": "חישבתי!",
-            "description": [
-                "פינג פונג, פונג פינג?",
-                "**{PING}ms**"
-            ]
-        }
-    },
-    "setgoal": {
-        "invalidnumber": {
-            "title": "שגיאה 400 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! בבקשה תכניס מספר אמיתי שגבוה מהמטרה הנוכחית. דוגמה: `c;setgoal 500`",
-                "",
-                "**צריך עזרה? [היכנס לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "extended": {
-            "title": "Goal extended",
-            "description": [
-                "**המטרה של החדר הזה שונתה!** המטרה החדשה היא לספור ל{GOAL}.",
-                "הפעולה נעשתה ע\"י {USER}."
-            ]
-        }
-    },
-    "shop": {
-        "mainmenu": {
-            "title": "תלחצו כאן בכדי להגיע לחנות 🛒",
-            "url": "https://bremea.com/countbot/shop",
-            "thumbnail": {
-                "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
-            },
-            "description": [
-                "**החנות של CountBot נמצאת ב[https://bremea.com/countbot/shop](https://bremea.com/countbot/shop)**",
-                "",
-                "אתם יכולים לעשות `c;shop [חיפוש]` כדי לחפש בחנות פריטים ולקבל קישורים אליהם"
-            ]
-        }
-    },
-    "stats": {
-        "fetchingstats": {
-            "title": "נתונים עבור {USERTAG}",
-            "description": [
-                "מקבל נתונים, המתן בבקשה... <a:loading2:771440180250017832>"
-            ]
-        }
-    },
-    "use": {
-        "noitemid": {
-            "title": "שגיאה 400 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! בבקשה הכנס את ה ID של הפריט (תריץ את הפקודה `c;inventory` בכדי לקבל רשימה של כל הפריטים במלאי ואת הID שלהם). דוגמה: `c;use p-s5`",
-                "",
-                "**צריך עזרה? [היכנס לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        },
-        "notininventory": {
-            "title": "שגיאה 404 <:flushed_think:735637678137016381>",
-            "description": [
-                "אוי! זה נראה כאילו אין לך פריטים במלי עם ה ID הזה `{ITEM}` (תריץ את הפקודה `c;inventory` בכדי לקבל רשימה של כל הפריטים במלאי ואת הID שלהם).",
-                "",
-                "**צריך עזרה? [היכנס לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
-            ]
-        }
-    },
-    "vote": {
-        "title": "לחץ כאן בכדי להצביע ל CountBot <a:upvote: 771459301965168710>",
-        "description": [
-            "**תצביע ל CountBot & תקבל פרסים שווים 👇**",
-            "",
-            "❓ **קופסאת מצביעים**",
-            "⬆️ **סמל של מצביעים**",
-            "<:countbot_coin2: 771441683535495179> **125 מטבעות**",
-            "<:sparkles_blue: 735669071714058321> **250 XP**"
-        ]
+      "description": [
+        "{FLAG} **{LANGUAGENAME}** (`{LANGUAGESHORT}`)",
+        "",
+        "**מוכן ב:** {PROGRESS}%",
+        "**מתרגם/ים:**",
+        "{AUTHORS}"
+      ]
     }
+  },
+  "merge": {
+    "notagoal": {
+      "title": "שגיאה 400 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! בבקשה תציין מספר אמיתי כמטרה. לדוגמה: `c;merge 500`",
+        "",
+        "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "setup": {
+      "title": "ספירה ל{GOAL}",
+      "description": [
+        "**{USER} הגדיר את COuntBot בחדר הזה!**",
+        "המטרה היא לספור ל{GOAL} אתם יכולים לעשות את זה?"
+      ],
+      "footer": {
+        "text": "טיפ: מנהלים יכולים להקשות על האתגר על ידי שינוי הקולדאון."
+      }
+    }
+  },
+  "milestones": {
+    "title": "מטרה {ACTION}",
+    "description": [
+      "**המטרה {ACTION} לחדר הספירה הזה.** אתה יכול לשנות זאת בכל זמן ע\" הרצת הפקודה `c;milestones` שוב.",
+      "הפעולה נעשתה ע\"י {USER}."
+    ]
+  },
+  "new": {
+    "invalidnumber": {
+      "title": "שגיאה 400 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! בבקשה תכניס מספר אמיתי. לדוגמה: `c;new 500`",
+        "",
+        "**צריכים עזרה? [הכנסו לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "created": {
+      "title": "חדר ספירה נוצר",
+      "description": "**תסתכל, חדר חדש לגמרי נוצר - {CHANNEL}!** המטרה היא לספור ל {GOAL}, אנחנו יכולים לעשות את זה?"
+    },
+    "newmessage": {
+      "rawtext": "נוצר חדר ספירה חדש! **להתחיל לספור עם 1.**",
+      "title": "ספרו ל{GOAL}",
+      "description": [
+        "**{USER} ממש עכשיו יצר חדר ספירה חדש!**",
+        "המטרה היא לספור ל{GOAL}. אתם יכולים לעשות את זה?"
+      ],
+      "footer": "טיפ: מנהלים יכולים להקשות על האתגר על ידי שינוי הקולדאון."
+    }
+  },
+  "ping": {
+    "start": {
+      "title": "מחשב",
+      "description": "שנייה אחת... <a:loading2:771440180250017832>"
+    },
+    "end": {
+      "title": "חישבתי!",
+      "description": [
+        "פינג פונג, פונג פינג?",
+        "**{PING}ms**"
+      ]
+    }
+  },
+  "setgoal": {
+    "invalidnumber": {
+      "title": "שגיאה 400 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! בבקשה תכניס מספר אמיתי שגבוה מהמטרה הנוכחית. דוגמה: `c;setgoal 500`",
+        "",
+        "**צריך עזרה? [היכנס לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "extended": {
+      "title": "Goal extended",
+      "description": [
+        "**המטרה של החדר הזה שונתה!** המטרה החדשה היא לספור ל{GOAL}.",
+        "הפעולה נעשתה ע\"י {USER}."
+      ]
+    }
+  },
+  "shop": {
+    "mainmenu": {
+      "title": "תלחצו כאן בכדי להגיע לחנות 🛒",
+      "url": "https://bremea.com/countbot/shop",
+      "thumbnail": {
+        "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
+      },
+      "description": [
+        "**החנות של CountBot נמצאת ב[https://bremea.com/countbot/shop](https://bremea.com/countbot/shop)**",
+        "",
+        "אתם יכולים לעשות `c;shop [חיפוש]` כדי לחפש בחנות פריטים ולקבל קישורים אליהם"
+      ]
+    }
+  },
+  "stats": {
+    "fetchingstats": {
+      "title": "נתונים עבור {USERTAG}",
+      "description": [
+        "מקבל נתונים, המתן בבקשה... <a:loading2:771440180250017832>"
+      ]
+    }
+  },
+  "use": {
+    "noitemid": {
+      "title": "שגיאה 400 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! בבקשה הכנס את ה ID של הפריט (תריץ את הפקודה `c;inventory` בכדי לקבל רשימה של כל הפריטים במלאי ואת הID שלהם). דוגמה: `c;use p-s5`",
+        "",
+        "**צריך עזרה? [היכנס לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    },
+    "notininventory": {
+      "title": "שגיאה 404 <:flushed_think:735637678137016381>",
+      "description": [
+        "אוי! זה נראה כאילו אין לך פריטים במלי עם ה ID הזה `{ITEM}` (תריץ את הפקודה `c;inventory` בכדי לקבל רשימה של כל הפריטים במלאי ואת הID שלהם).",
+        "",
+        "**צריך עזרה? [היכנס לשרת התמיכה שלנו.](https://discord.gg/w9BqPr8)**"
+      ]
+    }
+  },
+  "vote": {
+    "title": "לחץ כאן בכדי להצביע ל CountBot <a:upvote: 771459301965168710>",
+    "description": [
+      "**תצביע ל CountBot & תקבל פרסים שווים 👇**",
+      "",
+      "❓ **קופסאת מצביעים**",
+      "⬆️ **סמל של מצביעים**",
+      "<:countbot_coin2: 771441683535495179> **125 מטבעות**",
+      "<:sparkles_blue: 735669071714058321> **250 XP**"
+    ]
+  }
 }
