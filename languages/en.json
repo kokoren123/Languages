@@ -15,7 +15,7 @@
     "countingchanneltopic": "**Count to {GOAL}!** Powered by <@727569067895947383>",
     "countingchannelname": "count-to-{GOAL}",
     "usernotfound": {
-      "title": "Error 404 <:flushed_think:735637678137016381>",
+      "title": "Error 404 <:uhh:810311297936785439>",
       "description": [
         "Yikes! That user wasn't found or that user hasn't interacted with CountBot before.",
         "",
@@ -23,7 +23,7 @@
       ]
     },
     "noserverpermission": {
-      "title": "Error 403 <:flushed_think:735637678137016381>",
+      "title": "Error 403 <:uhh:810311297936785439>",
       "description": [
         "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Server\" permission.**",
         "",
@@ -31,7 +31,7 @@
       ]
     },
     "nochannelpermission": {
-      "title": "Error 403 <:flushed_think:735637678137016381>",
+      "title": "Error 403 <:uhh:810311297936785439>",
       "description": [
         "Yikes! It looks like you don't have proper permissions to run this command. **Make sure you have \"Manage Channel\" permission.**",
         "",
@@ -39,7 +39,7 @@
       ]
     },
     "nodevpermission": {
-      "title": "Error 403 <:flushed_think:735637678137016381>",
+      "title": "Error 403 <:uhh:810311297936785439>",
       "description": [
         "Yikes! It looks like you don't have proper permissions to run this command. **Only bremea development staff can use this command.**",
         "",
@@ -47,7 +47,7 @@
       ]
     },
     "nobotpermission": {
-      "title": "Error 403 <:flushed_think:735637678137016381>",
+      "title": "Error 403 <:uhh:810311297936785439>",
       "description": [
         "Yikes! It looks like I don't have proper permissions to run this command. **Make sure I have \"Manage Channel\" permission and my role is higher than your server's bot role.**",
         "",
@@ -55,7 +55,7 @@
       ]
     },
     "alreadyhaschannel": {
-      "title": "Error 403 <:flushed_think:735637678137016381>",
+      "title": "Error 403 <:uhh:810311297936785439>",
       "description": [
         "Yikes! It looks like you already have a counting channel running in this server - {CHANNEL}. Currently, we limit servers to one couting channel at a time.",
         "",
@@ -63,7 +63,7 @@
       ]
     },
     "notacountingchannel": {
-      "title": "Error 400 <:flushed_think:735637678137016381>",
+      "title": "Error 400 <:uhh:810311297936785439>",
       "description": [
         "Yikes! It doesn't look like this is a counting channel. **Make sure the last message sent is a valid, positive integer.**",
         "",
@@ -177,7 +177,7 @@
   },
   "inventory": {
     "noitems": {
-      "title": "Error 404 <:flushed_think:735637678137016381>",
+      "title": "Error 404 <:uhh:810311297936785439>",
       "description": [
         "Yikes! It doesn't look like you have any items in your inventory. **You can buy items at the [CountBot Shop](https://bremea.com/countbot/shop).**",
         "",
@@ -240,7 +240,7 @@
         "",
         "English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
       ],
-      "footer": "⏲️ Last Updated: {TIME}"
+      "footer": "Last Updated: {TIME}"
     },
     "invalidpage": {
       "description": [
@@ -263,7 +263,7 @@
       "author": {
         "name": "CountBot - Languages List ({PAGE}/{TOTALPAGES})"
       },
-      "footer": "⏲️ Last Updated: {TIME}"
+      "footer": "Last Updated: {TIME}"
     },
     "menu": {
       "description": [
@@ -283,23 +283,21 @@
       "author": {
         "name": "CountBot - Languages Menu"
       },
-      "footer": "⏲️ Last Updated: {TIME}"
+      "footer": "Last Updated: {TIME}"
     },
     "help": {
       "description": [
         "**Hey! Thanks for opening this page!**",
         "",
-        "The Magic8 developers have devoted many hours to being able to support other languages. Please consider taking the opportunity to help out!",
+        "The CountBot Team has devoted many hours to being able to support other languages. Please consider taking the opportunity to help out!",
         "",
         "[**Github Repository**](https://github.com/bremeadev/languages)",
         "",
         "**What do you get in return?**",
-        "- Language Contributor Role in our [Support Server](https://discord.gg/w9BqPr8)",
-        "- Free [Triple Package]({TRIPLEPACKAGE})",
-        "- Advertisement on the Magic8 bot or in the #sponsors channel",
-        "- Complete credit for the language",
-        "- Utmost respect from the developers",
-        "- Possibly more",
+        "- Translator Role in our [Support Server](https://bremea.com/discord)",
+        "- Free CountBot Coins",
+        "- Access to beta features",
+        "- Much more coming soon",
         "",
         " **Please contact us if you'd like to help!**"
       ],
@@ -319,7 +317,7 @@
   },
   "merge": {
     "notagoal": {
-      "title": "Error 400 <:flushed_think:735637678137016381>",
+      "title": "Error 400 <:uhh:810311297936785439>",
       "description": [
         "Yikes! Please enter a valid number for the goal. Example: `c;merge 500`",
         "",
@@ -346,7 +344,7 @@
   },
   "new": {
     "invalidnumber": {
-      "title": "Error 400 <:flushed_think:735637678137016381>",
+      "title": "Error 400 <:uhh:810311297936785439>",
       "description": [
         "Yikes! Please enter a valid number. Example: `c;new 500`",
         "",
@@ -382,7 +380,7 @@
   },
   "setgoal": {
     "invalidnumber": {
-      "title": "Error 400 <:flushed_think:735637678137016381>",
+      "title": "Error 400 <:uhh:810311297936785439>",
       "description": [
         "Yikes! Please enter a valid number that's higher than the current goal. Example: `c;setgoal 500`",
         "",
@@ -421,7 +419,7 @@
   },
   "use": {
     "noitemid": {
-      "title": "Error 400 <:flushed_think:735637678137016381>",
+      "title": "Error 400 <:uhh:810311297936785439>",
       "description": [
         "Yikes! Please enter an item id (run `c;inventory` to get a list of items in your inventory and their IDs). Example: `c;use p-s5`",
         "",
@@ -429,7 +427,7 @@
       ]
     },
     "notininventory": {
-      "title": "Error 404 <:flushed_think:735637678137016381>",
+      "title": "Error 404 <:uhh:810311297936785439>",
       "description": [
         "Yikes! It doesn't look like you have any items in your inventory that have the ID `{ITEM}` (you can run `c;inventory` to get a list of items in your inventory and their IDs).",
         "",
