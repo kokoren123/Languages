@@ -89,7 +89,7 @@
     "message": "**Item purchased!**"
   },
   "help": {
-    "helptitle": "CountBot Help",
+    "helptitle": "CountBot Help <:countbotpixel:800542958248001557>",
     "notacommand": {
       "description": [
         "Hmm... it seems that command doesn't exist. Check the spelling and try again."
@@ -104,9 +104,9 @@
     "command": {
       "title": "{COMMAND} | {HELPTITLE}"
     },
-    "title": "CountBot Help",
+    "title": "CountBot Help <:countbotpixel:800542958248001557>",
     "mainmenu": {
-      "title": "CountBot Help",
+      "title": "CountBot Help <:countbotpixel:800542958248001557>",
       "description": "Use `c;h <command>` to learn more about a command | **[Need help? Click here.](https://discord.gg/meWdwaJ)**",
       "fields": [
         {
@@ -136,7 +136,7 @@
     }
   },
   "info": {
-    "title": "CountBot Information",
+    "title": "CountBot Information <:countbotpixel:800542958248001557>",
     "thumbnail": {
       "url": "https://u.cubeupload.com/BGMead/cbtdarkcircle.png"
     },
