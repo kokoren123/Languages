@@ -436,14 +436,13 @@
     }
   },
   "vote": {
-    "title": "Click here to vote for CountBot <a:upvote: 771459301965168710>",
+    "title": "Click here to vote for CountBot",
     "description": [
-      "**Vote for CountBot & Get Cool Rewards 👇**",
+      "**Vote for CountBot & Get Cool Rewards!**",
       "",
-      "❓ **Voter's Box**",
-      "⬆️ **Voter Badge**",
-      "<:countbot_coin2: 771441683535495179> **125 Coins**",
-      "<:sparkles_blue: 735669071714058321> **250 XP**"
+      "<:uparrow:802686102254518322> **Voter Badge**",
+      "<a:coinspin:801831939626500166> **125 Coins**",
+      "<:bluesparkles:802686102153854976> **250 XP**"
     ]
   }
 }
