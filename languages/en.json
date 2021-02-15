@@ -119,7 +119,7 @@
         },
         {
           "name": "Settings Commands",
-          "value": "`c;milestones`, `c;powerups`, `c;curses`, `c;userlimit`, `c;setgoal`",
+          "value": "`c;milestones`, `c;powerups`, `c;curses`, `c;userlimit`, `c;setgoal`, `c;language`",
           "inline": true
         },
         {
