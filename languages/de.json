@@ -217,7 +217,7 @@
         "**Derzeitige Sprache:** `{CURRENTLANGUAGE}`",
         "",
         "**Verfügbare Sprachen**",
-        "`{AVAILABLELANGUAGES}`",
+        "{AVAILABLELANGUAGES}",
         "",
         "Englisch ist die Hauptsprache des Bots und wird voll unterstützt. Manche Befehle werden in Englisch angezeigt auch wenn die Sprache umgestellt worden ist"
       ]

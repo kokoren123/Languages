@@ -218,7 +218,7 @@
         "**Current:** `{CURRENTLANGUAGE}`",
         "",
         "**Available Languages:**",
-        "`{AVAILABLELANGUAGES}`",
+        "{AVAILABLELANGUAGES}",
         "",
         "English is the primary language and fully supported. Some commands may appear in English even though your language is set to another."
       ]
